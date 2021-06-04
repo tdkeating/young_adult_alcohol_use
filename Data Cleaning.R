@@ -1,0 +1,74 @@
+library(tidyverse)
+orig_data<- read_csv("Data/Dataset by Reference #.csv")
+
+## CLEANING DATA:
+new_data<- orig_data
+new_data<- new_data %>% rename(id=R0000100)
+new_data<- new_data %>% rename(sample_type=R1235800)
+new_data<- new_data %>% rename(birth_year=R0536402)
+new_data<- new_data %>% mutate(age_in_2006=2006-birth_year)
+new_data<- new_data %>% rename(race=R1482600)
+new_data<- new_data %>% mutate(race=case_when(race==1~"Black",
+                                              race==2~"Hispanic",
+                                              race==3~"Mixed Race (Non-Hispanic)",
+                                              race==4~"Non-Black/Non-Hispanic"))
+new_data<- new_data %>% rename(sex_male=R0536300)
+new_data<- new_data %>% mutate(sex_male=ifelse(sex_male==1, 1, 0))
+
+new_data<- new_data %>% rename(income_2006=S8496500)
+new_data<- new_data %>% filter(income_2006!=-5) # filter out all observations of non-interviews in 2006 (income_2006==-5), total =1425
+# if reported income in 2006, keep that value
+# if value was -4, they answered 0 income on a previous question- so make value 0
+# if value was -1, they refused to answer- make value NA
+# if value was -2, they answered don't know- make value NA
+new_data<- new_data %>% mutate(income_2006=case_when(income_2006>=0~income_2006,
+                                                     income_2006==-4~0))
+
+new_data<- new_data %>% rename(depressed_2006=S8332700)
+# if reported 1, 2, 3, or 4 - keep that value
+# if value was -1, they refused to answer - make value NA
+# if value was -2, they answered don't know - make value NA
+new_data<- new_data %>% mutate(depressed_2006=ifelse(depressed_2006>=1, depressed_2006, NA))
+new_data<- new_data %>% mutate(depressed_2006_categ=case_when(depressed_2006==1~"All of the time",
+                                                              depressed_2006==2~"Most of the time",
+                                                              depressed_2006==3~"Some of the time",
+                                                              depressed_2006==4~"None of the time"))
+new_data$depressed_2006_categ<- factor(new_data$depressed_2006_categ, 
+                                       levels=c("None of the time", "Some of the time", 
+                                                "Most of the time", "All of the time"))
+
+new_data<- new_data %>% rename(drank_last_year=S8333800)
+new_data<- new_data %>% filter(drank_last_year!=-4) # filter out all observations of prisoners in an insecure env (drank_last_year==-4), total=99
+# if reported yes(=1) or no(=0), keep that value
+# else make NA (-1=refusal, -2=don't know)
+new_data<- new_data %>% mutate(drank_last_year=ifelse(drank_last_year>=0, drank_last_year, NA))
+
+new_data<- new_data %>% rename(days_drank=S8333900)
+new_data<- new_data %>% rename(days_heavy_drank=S8334100)
+new_data$days_drank[new_data$drank_last_year==0]=0  #if did not drink since last interview date, make days_drank value = 0, total changed was 1756
+new_data$days_heavy_drank[new_data$days_drank==0]=0 # if days_drank==0, make days_heavy_drank value = 0
+
+
+# if value of days_drank >=0 , keep that value
+# else make NA (-1=refusal, -2=don't know, -4=valid skip)
+new_data<- new_data %>% mutate(days_drank=ifelse(days_drank>=0, days_drank, NA))
+
+# if value of day_heavy_drank>=0, keep that value
+# else make NA (-1=refusal, -2=don't know, -4=valid skip)
+new_data<- new_data %>% mutate(days_heavy_drank=ifelse(days_heavy_drank>=0, days_heavy_drank, NA))
+
+new_data<- new_data %>% rename(drinks_per_day=S8334000)
+# if value of drinks_per_day >=0 , keep that value
+# else make NA (-1=refusal, -2=don't know, -4=valid skip has not had drink in last 30 days, -5=non-interview)
+new_data<- new_data %>% mutate(drinks_per_day=ifelse(drinks_per_day>=0, drinks_per_day, NA))
+
+#create log_income variable
+new_data$log_income_2006<- log(new_data$income_2006 + 1)
+
+#select data columns of interest
+new_data<- new_data %>% dplyr::select(id, sample_type, birth_year, age_in_2006, race, sex_male,
+                                      income_2006, log_income_2006, depressed_2006, depressed_2006_categ, 
+                                      drank_last_year, days_drank, days_heavy_drank)
+
+#save the dataset
+saveRDS(object= new_data, file= "new_data.rds")

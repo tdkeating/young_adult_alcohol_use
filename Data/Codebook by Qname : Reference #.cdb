@@ -1,0 +1,3690 @@
+R00001.00    [PUBID]                                        Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             PUBID, YOUTH CASE IDENTIFICATION CODE
+ 
+COMMENT: YOUTH CASE IDENTIFICATION CODE
+ 
+       0           0
+     998           1 TO 999
+     999        1000 TO 1999
+     997        2000 TO 2999
+     996        3000 TO 3999
+     998        4000 TO 4999
+     996        5000 TO 5999
+     994        6000 TO 6999
+     994        7000 TO 7999
+     989        8000 TO 8999
+      23        9000 TO 9999
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:           9022        Mean:              4504.3
+ 
+Hard Minimum: [0]
+Hard Maximum: [99999999]
+ 
+Lead In: R72976.00[Default]
+Default Next Question: R05363.00
+--------------------------------------------------------------------------------
+R03583.00    [YSAQ-363]                                     Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             R EVER DRINK ALCOHOL?
+ 
+Next we would like to ask you some questions about drinking alcoholic beverages,
+including beer, wine or liquor.
+ 
+Have you ever had a drink of an alcoholic beverage? (By a drink we mean a can or
+bottle of beer, a glass of wine, a mixed drink, or a shot of liquor. Do not 
+include childhood sips that you might have had from an older person's drink.)
+ 
+UNIVERSE: All
+ 
+    3837       1 Yes   (Go To R03584.00)
+    5107       0 No
+  -------
+    8944
+ 
+Refusal(-1)           34
+Don't Know(-2)         4
+Invalid Skip(-3)       2
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:              1        Mean:                 .43
+ 
+Lead In: R03579.00[Default] R03582.00[Default]  R03581.00[0:0]
+Default Next Question: R03589.00
+--------------------------------------------------------------------------------
+R03584.00    [YSAQ-364]                                     Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             HOW OLD R FIRST TIME DRINK ALCOHOL?
+ 
+How old were you the first time you had a glass of beer or wine or a drink of 
+liquor such as whiskey, gin, scotch, etc?
+ 
+UNIVERSE: R has ever drank alcohol
+ 
+       0           0
+      43           1
+      18           2
+      12           3
+      17           4
+      35           5
+      24           6
+      54           7
+      65           8
+      88           9
+     213          10
+     306          11
+     613          12
+     741          13
+     801          14
+     585          15
+     188          16
+      19          17
+       0          18 TO 99: 18+
+  -------
+    3822
+ 
+Refusal(-1)            7
+Don't Know(-2)         8
+TOTAL =========>    3837   VALID SKIP(-4)    5147     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:             17        Mean:               12.56
+ 
+Hard Minimum: [1]
+Hard Maximum: [age of  R at date of interview]
+ 
+Lead In: R03583.00[1:1]
+Default Next Question: R03585.00
+--------------------------------------------------------------------------------
+R03585.00    [YSAQ-365]                                     Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R DRINK ALCOHOL LAST 30 DAYS
+ 
+During the last 30 days, on how many days did you have one or more drinks of an 
+alcoholic beverage?
+ 
+UNIVERSE: R answered yes/no to ever having had a drink
+ 
+    2094           0   (Go To R03589.00)
+    1287           1 TO 4
+     217           5 TO 9
+     120          10 TO 14
+      48          15 TO 19
+      32          20 TO 24
+      11          25 TO 29
+      10          30
+  -------
+    3819
+ 
+Refusal(-1)            3
+Don't Know(-2)        15
+TOTAL =========>    3837   VALID SKIP(-4)    5147     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:             30        Mean:                1.83
+ 
+Hard Minimum: [0]
+Hard Maximum: [30]
+ 
+Lead In: R03584.00[Default]
+Default Next Question: R03586.00
+--------------------------------------------------------------------------------
+R03586.00    [YSAQ-366]                                     Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             # DRINKS PER DAY LAST 30 DAYS
+ 
+In the past 30 days, on the days you drank alcohol, about how many drinks did 
+you usually have?
+ 
+UNIVERSE: R answered yes/no to ever having had a drink; did not answer 0 to how 
+many days has drank in the last 30 days
+ 
+      57           0
+     485           1
+     331           2
+     204           3
+     137           4
+     151           5
+      96           6
+      42           7
+      43           8
+      17           9
+      47          10
+       4          11
+      26          12
+       5          13
+       2          14
+      78          15 TO 99: 15+
+  -------
+    1725
+ 
+Refusal(-1)            5
+Don't Know(-2)        13
+TOTAL =========>    1743   VALID SKIP(-4)    7241     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:             99        Mean:                4.41
+ 
+Hard Minimum: [0]
+Hard Maximum: [99]
+ 
+Lead In: R03585.00[Default]
+Default Next Question: R03587.00
+--------------------------------------------------------------------------------
+R03587.00    [YSAQ-367]                                     Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R HAD 5+ DRINKS PER DAY LAST 30 DAYS
+ 
+On how many days did you have five or more drinks on the same occasion during 
+the past 30 days? By occasion we mean at the same time or within hours of each 
+other.
+ 
+UNIVERSE: R answered yes/no to ever having had a drink; did not answer 0 to how 
+many days has drank in the last 30 days
+ 
+     855           0
+     608           1 TO 4
+     158           5 TO 9
+      61          10 TO 14
+      19          15 TO 19
+      15          20 TO 24
+       1          25 TO 29
+       6          30
+  -------
+    1723
+ 
+Refusal(-1)            5
+Don't Know(-2)        15
+TOTAL =========>    1743   VALID SKIP(-4)    7241     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:             30        Mean:                2.09
+ 
+Hard Minimum: [0]
+Hard Maximum: [30]
+ 
+Lead In: R03586.00[Default]
+Default Next Question: R03588.00
+--------------------------------------------------------------------------------
+R05363.00    [KEY!SEX]                                      Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!SEX, RS GENDER (SYMBOL)
+ 
+COMMENT: Gender of Youth
+ 
+    4599       1 Male
+    4385       2 Female
+       0       0 No Information
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:              2        Mean:                1.49
+ 
+Lead In: R00001.00[Default]
+Default Next Question: R05364.00
+--------------------------------------------------------------------------------
+R05364.01    [KEY!BDATE_M]                                  Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!BDATE, RS BIRTHDATE MONTH/YEAR (SYMBOL)
+ 
+COMMENT: Birthdate of Youth
+ 
+     816           1: January
+     693           2: February
+     760           3: March
+     659           4: April
+     689           5: May
+     720           6: June
+     762           7: July
+     782           8: August
+     839           9: September
+     765          10: October
+     763          11: November
+     736          12: December
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:             12        Mean:                6.56
+ 
+Earliest (NonMissing): JANUARY/1980
+Latest   (NonMissing): DECEMBER/1984
+ 
+Hard Minimum: [01/01/1880]
+Hard Maximum: [the current date]
+ 
+Lead In: None.
+Default Next Question: R05364.02
+--------------------------------------------------------------------------------
+R05364.02    [KEY!BDATE_Y]                                  Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!BDATE, RS BIRTHDATE MONTH/YEAR (SYMBOL)
+ 
+COMMENT: Birthdate of Youth
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:           1980        Max:           1984        Mean:             1982.01
+ 
+Earliest (NonMissing): JANUARY/1980
+Latest   (NonMissing): DECEMBER/1984
+ 
+Hard Minimum: [01/01/1880]
+Hard Maximum: [the current date]
+ 
+Lead In: R05364.01[Default]
+Default Next Question: R05366.00
+--------------------------------------------------------------------------------
+R12358.00    [CV_SAMPLE_TYPE]                               Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             SAMPLE TYPE.  CROSS-SECTIONAL OR OVERSAMPLE
+ 
+Sample type: Is the respondent a member of the cross-sectional sample or the 
+oversample?
+ 
+    6748       1 Cross-sectional
+    2236       0 Oversample
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:              1        Mean:                 .75
+ 
+Lead In: R12338.00[Default]
+Default Next Question: R12359.00
+--------------------------------------------------------------------------------
+R14826.00    [KEY!RACE_ETHNICITY]                           Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!RACE_ETHNICITY, COMBINED RACE AND ETHNICITY (SYMBOL)
+ 
+COMMENT: Combined race - ethnicity variable
+ 
+    2335       1 Black
+    1901       2 Hispanic
+      83       3 Mixed Race (Non-Hispanic)
+    4665       4 Non-Black / Non-Hispanic
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:              4        Mean:                2.79
+ 
+Lead In: R05387.00[Default]
+Default Next Question: R05389.00
+--------------------------------------------------------------------------------
+R21899.00    [YSAQ-363]                                     Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             R EVER DRINK ALCOHOL?
+ 
+Next we would like to ask you some questions about drinking alcoholic beverages,
+including beer, wine or liquor.
+ 
+Have you ever had a drink of an alcoholic beverage? (By a drink we mean a can or
+bottle of beer, a glass of wine, a mixed drink, or a shot of liquor.  Do not 
+include childhood sips that you might have had from an older person's drink.)
+ 
+UNIVERSE: R did not answer question if had ever drank as of DLI
+ 
+      17       1 Yes   (Go To R21901.00)
+      18       0 No
+  -------
+      35
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      35   VALID SKIP(-4)    8351     NON-INTERVIEW(-5)     598
+ 
+Min:              0        Max:              1        Mean:                 .49
+ 
+Lead In: R21897.00[1:1]
+Default Next Question: R21907.00
+--------------------------------------------------------------------------------
+R21901.00    [YSAQ-364]                                     Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             HOW OLD R 1ST TIME DRINK ALCOHOL?
+ 
+How old were you the first time you had a glass of beer or wine or a drink of 
+liquor such as whiskey, gin, scotch, etc?
+ 
+UNIVERSE: R has ever drank alcohol and did not answer age first drank as of DLI
+ 
+       0           0
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       1           6
+       0           7
+       1           8
+       1           9
+       0          10
+       1          11
+       1          12
+       2          13
+       5          14
+       6          15
+       3          16
+       4          17
+       2          18 TO 99: 18+
+  -------
+      27
+ 
+Refusal(-1)            3
+Don't Know(-2)         0
+TOTAL =========>      30   VALID SKIP(-4)    8356     NON-INTERVIEW(-5)     598
+ 
+Min:              6        Max:             18        Mean:               14.22
+ 
+Hard Minimum: [1]
+Hard Maximum: [current age]
+Soft Minimum: [3]
+Soft Maximum: [NA]
+ 
+Lead In: R21899.00[1:1] R21900.00[1:1]
+Default Next Question: R21902.00
+--------------------------------------------------------------------------------
+R21902.00    [YSAQ-364D]                                    Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             HAS R DRANK SINCE DLI?
+ 
+["Next we would like to ask you some questions about drinking alcoholic 
+beverages, including beer, wine or liquor."]
+ 
+Have you had a drink of an alcoholic beverage since the last interview on [date 
+of last interview]? (By a drink we mean a can or bottle of beer, a glass of 
+wine, a mixed drink, or a shot of liquor.)
+ 
+UNIVERSE: R answered yes/no to ever having had a drink
+ 
+    4166       1 Yes   (Go To R21903.00)
+    4173       0 No
+  -------
+    8339
+ 
+Refusal(-1)           21
+Don't Know(-2)         8
+TOTAL =========>    8368   VALID SKIP(-4)      18     NON-INTERVIEW(-5)     598
+ 
+Min:              0        Max:              1        Mean:                  .5
+ 
+Lead In: R21900.00[Default] R21901.00[Default]  R21898.00[1:1]
+Default Next Question: R21907.00
+--------------------------------------------------------------------------------
+R21903.00    [YSAQ-365]                                     Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R DRINK ALCOHOL LAST 30 DAYS
+ 
+During the last 30 days, on how many days did you have one or more drinks of an 
+alcoholic beverage?
+ 
+UNIVERSE: R answered yes/no to ever having had a drink; has drank since DLI
+ 
+    1396           0   (Go To R21907.00)
+    1842           1 TO 4
+     504           5 TO 9
+     187          10 TO 14
+     117          15 TO 19
+      52          20 TO 24
+      17          25 TO 29
+      33          30
+  -------
+    4148
+ 
+Refusal(-1)            8
+Don't Know(-2)        10
+TOTAL =========>    4166   VALID SKIP(-4)    4220     NON-INTERVIEW(-5)     598
+ 
+Min:              0        Max:             30        Mean:                3.11
+ 
+Hard Minimum: [0]
+Hard Maximum: [30]
+ 
+Lead In: R21902.00[1:1]
+Default Next Question: R21904.00
+--------------------------------------------------------------------------------
+R21904.00    [YSAQ-366]                                     Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             # DRINKS PER DAY LAST 30 DAYS
+ 
+In the past 30 days, on the days you drank alcohol, about how many drinks did 
+you usually have?
+ 
+UNIVERSE: R answered yes/no to ever having had a drink; has drank since DLI
+ 
+      98           0
+     675           1
+     462           2
+     363           3
+     233           4
+     254           5
+     152           6
+      81           7
+      77           8
+      43           9
+     111          10
+      10          11
+      53          12
+      11          13
+       1          14
+     121          15 TO 99: 15+
+  -------
+    2745
+ 
+Refusal(-1)           10
+Don't Know(-2)        15
+TOTAL =========>    2770   VALID SKIP(-4)    5616     NON-INTERVIEW(-5)     598
+ 
+Min:              0        Max:             99        Mean:                4.59
+ 
+Hard Minimum: [0]
+Hard Maximum: [99]
+ 
+Lead In: R21903.00[Default]
+Default Next Question: R21905.00
+--------------------------------------------------------------------------------
+R21905.00    [YSAQ-367]                                     Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R HAD 5+ DRINKS PER DAY LAST 30 DAYS
+ 
+On how many days did you have five or more drinks on the same occasion during 
+the past 30 days?  By occasion we mean at the same time or within hours of each 
+other.
+ 
+UNIVERSE: R answered yes/no to ever having had a drink; has drank since DLI
+ 
+    1375           0
+     992           1 TO 4
+     241           5 TO 9
+      74          10 TO 14
+      35          15 TO 19
+      16          20 TO 24
+       8          25 TO 29
+       3          30
+  -------
+    2744
+ 
+Refusal(-1)            8
+Don't Know(-2)        18
+TOTAL =========>    2770   VALID SKIP(-4)    5616     NON-INTERVIEW(-5)     598
+ 
+Min:              0        Max:             30        Mean:                1.91
+ 
+Hard Minimum: [0]
+Hard Maximum: [number of days]
+ 
+Lead In: R21904.00[Default]
+Default Next Question: R21906.00
+--------------------------------------------------------------------------------
+R35090.00    [YSAQ-363]                                     Survey Year: 1999
+  PRIMARY VARIABLE
+
+ 
+             R EVER DRINK ALCOHOL?
+ 
+Have you ever had a drink of an alcoholic beverage? (By a drink we mean a can or
+bottle of beer, a glass of wine, a mixed drink, or a shot of liquor.  Do not 
+include childhood sips that you might have had from an older person's drink.)
+ 
+UNIVERSE: R did not answer question if had ever drank as of DLI
+ 
+       5       1 Yes   (Go To R35092.00)
+       0       0 No
+  -------
+       5
+ 
+Refusal(-1)            1
+Don't Know(-2)         0
+TOTAL =========>       6   VALID SKIP(-4)    8202     NON-INTERVIEW(-5)     776
+ 
+Min:              1        Max:              1        Mean:                   1
+ 
+Lead In: R35088.00[1:1]
+Default Next Question: R35098.00
+--------------------------------------------------------------------------------
+R35092.00    [YSAQ-364]                                     Survey Year: 1999
+  PRIMARY VARIABLE
+
+ 
+             HOW OLD R 1ST TIME DRINK ALCOHOL?
+ 
+How old were you the first time you had a glass of beer or wine or a drink of 
+liquor such as whiskey, gin, scotch, etc?
+ 
+UNIVERSE: R has ever drank alcohol and did not answer age first drank as of DLI
+ 
+       0           0
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       1          10
+       2          11
+       1          12
+       1          13
+       1          14
+       1          15
+       1          16
+       0          17
+       0          18 TO 99: 18+
+  -------
+       8
+ 
+Refusal(-1)            1
+Don't Know(-2)         1
+TOTAL =========>      10   VALID SKIP(-4)    8198     NON-INTERVIEW(-5)     776
+ 
+Min:             10        Max:             16        Mean:               12.75
+ 
+Hard Minimum: [1]
+Hard Maximum: [age at interview date]
+Soft Minimum: [3]
+Soft Maximum: [NA]
+ 
+Lead In: R35090.00[1:1] R35091.00[1:1]
+Default Next Question: R35093.00
+--------------------------------------------------------------------------------
+R35093.00    [YSAQ-364D]                                    Survey Year: 1999
+  PRIMARY VARIABLE
+
+ 
+             HAS R DRANK SINCE DLI?
+ 
+Have you had a drink of an alcoholic beverage since the last interview on [date 
+of last interview]? (By a drink we mean a can or bottle of beer, a glass of 
+wine, a mixed drink, or a shot of liquor.)
+ 
+UNIVERSE: R answered yes/no to ever having had a drink
+ 
+    4402       1 Yes   (Go To R35094.00)
+    3730       0 No
+  -------
+    8132
+ 
+Refusal(-1)           70
+Don't Know(-2)         5
+TOTAL =========>    8207   VALID SKIP(-4)       1     NON-INTERVIEW(-5)     776
+ 
+Min:              0        Max:              1        Mean:                 .54
+ 
+Lead In: R35091.00[Default] R35092.00[Default]  R35089.00[1:1]
+Default Next Question: R35098.00
+--------------------------------------------------------------------------------
+R35094.00    [YSAQ-365]                                     Survey Year: 1999
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R DRINK ALCOHOL LAST 30 DAYS
+ 
+During the last 30 days, on how many days did you have one or more drinks of an 
+alcoholic beverage?
+ 
+UNIVERSE: R answered yes/no to ever having had a drink; has drank since DLI
+ 
+    1023           0   (Go To R35098.00)
+    2090           1 TO 4
+     626           5 TO 9
+     320          10 TO 14
+     153          15 TO 19
+      82          20 TO 24
+      37          25 TO 29
+      42          30
+  -------
+    4373
+ 
+Refusal(-1)            5
+Don't Know(-2)        24
+TOTAL =========>    4402   VALID SKIP(-4)    3806     NON-INTERVIEW(-5)     776
+ 
+Min:              0        Max:             30        Mean:                4.01
+ 
+Hard Minimum: [0]
+Hard Maximum: [30]
+ 
+Lead In: R35093.00[1:1]
+Default Next Question: R35095.00
+--------------------------------------------------------------------------------
+R35095.00    [YSAQ-366]                                     Survey Year: 1999
+  PRIMARY VARIABLE
+
+ 
+             # DRINKS PER DAY LAST 30 DAYS
+ 
+In the past 30 days, on the days you drank alcohol, about how many drinks did 
+you usually have?
+ 
+UNIVERSE: R answered yes/no to ever having had a drink; has drank since DLI; did
+not answer 0 to how many days has drank in the last 30 days
+ 
+      50           0
+     711           1
+     614           2
+     430           3
+     332           4
+     320           5
+     220           6
+      84           7
+     117           8
+      45           9
+     160          10
+      11          11
+      84          12
+      10          13
+       7          14
+     151          15 TO 99: 15+
+  -------
+    3346
+ 
+Refusal(-1)            6
+Don't Know(-2)        27
+TOTAL =========>    3379   VALID SKIP(-4)    4829     NON-INTERVIEW(-5)     776
+ 
+Min:              0        Max:             99        Mean:                5.01
+ 
+Hard Minimum: [0]
+Hard Maximum: [99]
+Soft Minimum: [1]
+Soft Maximum: [NA]
+ 
+Lead In: R35094.00[Default]
+Default Next Question: R35096.00
+--------------------------------------------------------------------------------
+R35096.00    [YSAQ-367]                                     Survey Year: 1999
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R HAD 5+ DRINKS PER DAY LAST 30 DAYS
+ 
+On how many days did you have five or more drinks on the same occasion during 
+the past 30 days?  By occasion we mean at the same time or within hours of each 
+other.
+ 
+UNIVERSE: R answered yes/no to ever having had a drink; has drank since DLI; did
+not answer 0 to how many days has drank in the last 30 days
+ 
+    1500           0
+    1260           1 TO 4
+     348           5 TO 9
+     139          10 TO 14
+      50          15 TO 19
+      27          20 TO 24
+       6          25 TO 29
+       4          30
+  -------
+    3334
+ 
+Refusal(-1)           12
+Don't Know(-2)        33
+TOTAL =========>    3379   VALID SKIP(-4)    4829     NON-INTERVIEW(-5)     776
+ 
+Min:              0        Max:             30        Mean:                2.28
+ 
+Hard Minimum: [0]
+Hard Maximum: [{ALCOHOLDAYSMAX}]
+ 
+Lead In: R35095.00[Default]
+Default Next Question: R35097.00
+--------------------------------------------------------------------------------
+R48937.00    [YSAQ-282D]                                    Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R FELT CALM AND PEACEFUL IN PAST MONTH
+ 
+How much of the time during the last month have you felt calm and peaceful?
+ 
+UNIVERSE: All
+ 
+     759       1 All of the time
+    3922       2 Most of the time
+    2949       3 Some of the time
+     397       4 None of the time
+  -------
+    8027
+ 
+Refusal(-1)           42
+Don't Know(-2)        10
+TOTAL =========>    8079   VALID SKIP(-4)       1     NON-INTERVIEW(-5)     904
+ 
+Min:              1        Max:              4        Mean:                2.37
+ 
+Lead In: R48936.00[Default]
+Default Next Question: R48938.00
+--------------------------------------------------------------------------------
+R48938.00    [YSAQ-282E]                                    Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R FELT DOWN OR BLUE IN PAST MONTH
+ 
+How much of the time during the last month have you felt downhearted and blue?
+ 
+UNIVERSE: All
+ 
+     240       1 All of the time
+     910       2 Most of the time
+    4432       3 Some of the time
+    2441       4 None of the time
+  -------
+    8023
+ 
+Refusal(-1)           44
+Don't Know(-2)        12
+TOTAL =========>    8079   VALID SKIP(-4)       1     NON-INTERVIEW(-5)     904
+ 
+Min:              1        Max:              4        Mean:                3.13
+ 
+Lead In: R48937.00[Default]
+Default Next Question: R48939.00
+--------------------------------------------------------------------------------
+R48939.00    [YSAQ-282F]                                    Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R HAS BEEN A HAPPY PERSON IN PAST MONTH
+ 
+How much of the time during the last month have you been a happy person?
+ 
+UNIVERSE: All
+ 
+    1197       1 All of the time
+    4316       2 Most of the time
+    2328       3 Some of the time
+     186       4 None of the time
+  -------
+    8027
+ 
+Refusal(-1)           43
+Don't Know(-2)         9
+TOTAL =========>    8079   VALID SKIP(-4)       1     NON-INTERVIEW(-5)     904
+ 
+Min:              1        Max:              4        Mean:                2.19
+ 
+Lead In: R48938.00[Default]
+Default Next Question: R48940.00
+--------------------------------------------------------------------------------
+R48940.00    [YSAQ-282G]                                    Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R DEPRESSED IN LAST MONTH
+ 
+How much of the time during the last month have you felt so down in the dumps 
+that nothing could cheer you up?
+ 
+UNIVERSE: All
+ 
+     123       1 All of the time
+     457       2 Most of the time
+    2371       3 Some of the time
+    5077       4 None of the time
+  -------
+    8028
+ 
+Refusal(-1)           44
+Don't Know(-2)         7
+TOTAL =========>    8079   VALID SKIP(-4)       1     NON-INTERVIEW(-5)     904
+ 
+Min:              1        Max:              4        Mean:                3.54
+ 
+Lead In: R48939.00[Default]
+Default Next Question: R48941.00
+--------------------------------------------------------------------------------
+R49071.00    [YSAQ-363]                                     Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             R EVER DRINK ALCOHOL?
+ 
+Have you ever had a drink of an alcoholic beverage? (By a drink we mean a can or
+bottle of beer, a glass of wine, a mixed drink, or a shot of liquor.  Do not 
+include childhood sips that you might have had from an older person's drink.)
+ 
+UNIVERSE: R did not answer question if had ever drank as of DLI
+ 
+       1       1 Yes   (Go To R49073.00)
+       1       0 No
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       2   VALID SKIP(-4)    8078     NON-INTERVIEW(-5)     904
+ 
+Min:              0        Max:              1        Mean:                  .5
+ 
+Lead In: R49069.00[1:1]
+Default Next Question: R49079.00
+--------------------------------------------------------------------------------
+R49073.00    [YSAQ-364]                                     Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             HOW OLD R 1ST TIME DRINK ALCOHOL?
+ 
+How old were you the first time you had a glass of beer or wine or a drink of 
+liquor such as whiskey, gin, scotch, etc?
+ 
+UNIVERSE: R has ever drank alcohol and did not answer age 1st drank as of DLI
+ 
+       0           0
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       1          13
+       1          14
+       0          15
+       0          16
+       0          17
+       1          18 TO 99: 18+
+  -------
+       3
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       3   VALID SKIP(-4)    8077     NON-INTERVIEW(-5)     904
+ 
+Min:             13        Max:             18        Mean:                  15
+ 
+Hard Minimum: [1]
+Hard Maximum: [age at interview date]
+Soft Minimum: [3]
+Soft Maximum: [NA]
+ 
+Lead In: R49071.00[1:1] R49072.00[1:1]
+Default Next Question: R49074.00
+--------------------------------------------------------------------------------
+R49074.00    [YSAQ-364D]                                    Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             HAS R DRANK SINCE DLI?
+ 
+Have you had a drink of an alcoholic beverage since the last interview on [date 
+of last interview]? (By a drink we mean a can or bottle of beer, a glass of 
+wine, a mixed drink, or a shot of liquor.)
+ 
+UNIVERSE: R answered yes/no to ever having had a drink
+ 
+    4684       1 Yes   (Go To R49075.00)
+    3337       0 No
+  -------
+    8021
+ 
+Refusal(-1)           50
+Don't Know(-2)         8
+TOTAL =========>    8079   VALID SKIP(-4)       1     NON-INTERVIEW(-5)     904
+ 
+Min:              0        Max:              1        Mean:                 .58
+ 
+Lead In: R49072.00[Default] R49073.00[Default]  R49070.00[1:1]
+Default Next Question: R49079.00
+--------------------------------------------------------------------------------
+R49075.00    [YSAQ-365]                                     Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R DRINK ALCOHOL LAST 30 DAYS
+ 
+During the last 30 days, on how many days did you have one or more drinks of an 
+alcoholic beverage?
+ 
+UNIVERSE: R answered yes/no to ever having had a drink; has drank since DLI
+ 
+    1041           0   (Go To R49079.00)
+    2135           1 TO 4
+     737           5 TO 9
+     352          10 TO 14
+     180          15 TO 19
+     113          20 TO 24
+      54          25 TO 29
+      49          30
+  -------
+    4661
+ 
+Refusal(-1)            9
+Don't Know(-2)        14
+TOTAL =========>    4684   VALID SKIP(-4)    3396     NON-INTERVIEW(-5)     904
+ 
+Min:              0        Max:             30        Mean:                4.41
+ 
+Hard Minimum: [0]
+Hard Maximum: [30]
+ 
+Lead In: R49074.00[1:1]
+Default Next Question: R49076.00
+--------------------------------------------------------------------------------
+R49076.00    [YSAQ-366]                                     Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             # DRINKS PER DAY LAST 30 DAYS
+ 
+In the past 30 days, on the days you drank alcohol, about how many drinks did 
+you usually have?
+ 
+UNIVERSE: R answered yes/no to ever having had a drink; has drank since DLI; did
+not answer 0 to how many days has drank in the last 30 days
+ 
+      51           0
+     632           1
+     628           2
+     505           3
+     349           4
+     398           5
+     243           6
+     130           7
+     137           8
+      41           9
+     160          10
+      17          11
+      99          12
+      14          13
+       7          14
+     199          15 TO 999: 15+
+  -------
+    3610
+ 
+Refusal(-1)            8
+Don't Know(-2)        25
+TOTAL =========>    3643   VALID SKIP(-4)    4437     NON-INTERVIEW(-5)     904
+ 
+Min:              0        Max:             99        Mean:                5.42
+ 
+Hard Minimum: [0]
+Hard Maximum: [99]
+Soft Minimum: [1]
+Soft Maximum: [NA]
+ 
+Lead In: R49075.00[Default]
+Default Next Question: R49077.00
+--------------------------------------------------------------------------------
+R49077.00    [YSAQ-367]                                     Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R HAD 5+ DRINKS PER DAY LAST 30 DAYS
+ 
+On how many days did you have five or more drinks on the same occasion during 
+the past 30 days?  By occasion we mean at the same time or within hours of each 
+other.
+ 
+UNIVERSE: R answered yes/no to ever having had a drink; has drank since DLI; did
+not answer 0 to how many days has drank in the last 30 days
+ 
+    1524           0
+    1395           1 TO 4
+     409           5 TO 9
+     146          10 TO 14
+      69          15 TO 19
+      48          20 TO 24
+      10          25 TO 29
+      13          30
+  -------
+    3614
+ 
+Refusal(-1)            7
+Don't Know(-2)        22
+TOTAL =========>    3643   VALID SKIP(-4)    4437     NON-INTERVIEW(-5)     904
+ 
+Min:              0        Max:             30        Mean:                2.62
+ 
+Hard Minimum: [0]
+Hard Maximum: [maximum days R drank alcohol]
+ 
+Lead In: R49076.00[Default]
+Default Next Question: R49078.00
+--------------------------------------------------------------------------------
+R65347.00    [YSAQ-364D]                                    Survey Year: 2001
+  PRIMARY VARIABLE
+
+ 
+             HAS R DRANK SINCE DLI?
+ 
+Have you had a drink of an alcoholic beverage since the last interview on [date 
+of last interview]? (By a drink we mean a can or bottle of beer, a glass of 
+wine, a mixed drink, or a shot of liquor.)
+ 
+UNIVERSE: R answered yes/no to ever having had a drink
+ 
+    4958       1 YES   (Go To R65348.00)
+    2885       0 NO
+  -------
+    7843
+ 
+Refusal(-1)           31
+Don't Know(-2)         8
+TOTAL =========>    7882   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1102
+ 
+Min:              0        Max:              1        Mean:                 .63
+ 
+Lead In: R65346.00[Default]  R65345.00[1:1]
+Default Next Question: R65352.00
+--------------------------------------------------------------------------------
+R65348.00    [YSAQ-365]                                     Survey Year: 2001
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R DRINK ALCOHOL LAST 30 DAYS
+ 
+During the last 30 days, on how many days did you have one or more drinks of an 
+alcoholic beverage?
+ 
+UNIVERSE: R answered yes/no to ever having had a drink; has drank since DLI
+ 
+     874           0   (Go To R65352.00)
+    2220           1 TO 4
+     896           5 TO 9
+     419          10 TO 14
+     242          15 TO 19
+     150          20 TO 24
+      72          25 TO 29
+      71          30
+  -------
+    4944
+ 
+Refusal(-1)            3
+Don't Know(-2)        11
+TOTAL =========>    4958   VALID SKIP(-4)    2924     NON-INTERVIEW(-5)    1102
+ 
+Min:              0        Max:             30        Mean:                 5.1
+ 
+Hard Minimum: [0]
+Hard Maximum: [30]
+ 
+Lead In: R65347.00[1:1]
+Default Next Question: R65349.00
+--------------------------------------------------------------------------------
+R65349.00    [YSAQ-366]                                     Survey Year: 2001
+  PRIMARY VARIABLE
+
+ 
+             # DRINKS PER DAY LAST 30 DAYS
+ 
+In the past 30 days, on the days you drank alcohol, about how many drinks did 
+you usually have?
+ 
+UNIVERSE: R answered yes/no to ever having had a drink; has drank since DLI; did
+not answer 0 to how many days has drank in the last 30 days
+ 
+      43           0
+     585           1
+     734           2
+     679           3
+     445           4
+     436           5
+     300           6
+     145           7
+     151           8
+      42           9
+     176          10
+      11          11
+      87          12
+      15          13
+       5          14
+     209          15 TO 999: 15+
+  -------
+    4063
+ 
+Refusal(-1)            3
+Don't Know(-2)        18
+TOTAL =========>    4084   VALID SKIP(-4)    3798     NON-INTERVIEW(-5)    1102
+ 
+Min:              0        Max:             99        Mean:                5.34
+ 
+Hard Minimum: [0]
+Hard Maximum: [99]
+Soft Minimum: [1]
+Soft Maximum: [NA]
+ 
+Lead In: R65348.00[Default]
+Default Next Question: R65350.00
+--------------------------------------------------------------------------------
+R65350.00    [YSAQ-367]                                     Survey Year: 2001
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R HAD 5+ DRINKS PER DAY LAST 30 DAYS
+ 
+On how many days did you have five or more drinks on the same occasion during 
+the past 30 days?  By occasion we mean at the same time or within hours of each 
+other.
+ 
+UNIVERSE: R answered yes/no to ever having had a drink; has drank since DLI; did
+not answer 0 to how many days has drank in the last 30 days
+ 
+    1688           0
+    1532           1 TO 4
+     458           5 TO 9
+     201          10 TO 14
+      95          15 TO 19
+      46          20 TO 24
+      27          25 TO 29
+      17          30
+  -------
+    4064
+ 
+Refusal(-1)            4
+Don't Know(-2)        16
+TOTAL =========>    4084   VALID SKIP(-4)    3798     NON-INTERVIEW(-5)    1102
+ 
+Min:              0        Max:             30        Mean:                2.86
+ 
+Hard Minimum: [0]
+Hard Maximum: [{ALCOHOLDAYSMAX}]
+ 
+Lead In: R65349.00[Default]
+Default Next Question: R65351.00
+--------------------------------------------------------------------------------
+S09209.00    [YSAQ-282D]                                    Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R FELT CALM AND PEACEFUL IN PAST MONTH
+ 
+How much of the time during the last month have you felt calm and peaceful?
+ 
+UNIVERSE: All
+ 
+     668       1 All of the time
+    3717       2 Most of the time
+    3099       3 Some of the time
+     387       4 None of the time
+  -------
+    7871
+ 
+Refusal(-1)           20
+Don't Know(-2)         5
+TOTAL =========>    7896   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1088
+ 
+Min:              1        Max:              4        Mean:                2.41
+ 
+Lead In: S09208.00[Default]
+Default Next Question: S09210.00
+--------------------------------------------------------------------------------
+S09210.00    [YSAQ-282E]                                    Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R FELT DOWN OR BLUE IN PAST MONTH
+ 
+How much of the time during the last month have you felt downhearted and blue?
+ 
+UNIVERSE: All
+ 
+     251       1 All of the time
+     829       2 Most of the time
+    4531       3 Some of the time
+    2255       4 None of the time
+  -------
+    7866
+ 
+Refusal(-1)           25
+Don't Know(-2)         5
+TOTAL =========>    7896   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1088
+ 
+Min:              1        Max:              4        Mean:                3.12
+ 
+Lead In: S09209.00[Default]
+Default Next Question: S09211.00
+--------------------------------------------------------------------------------
+S09211.00    [YSAQ-282F]                                    Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R HAS BEEN A HAPPY PERSON IN PAST MONTH
+ 
+How much of the time during the last month have you been a happy person?
+ 
+UNIVERSE: All
+ 
+    1036       1 All of the time
+    4256       2 Most of the time
+    2400       3 Some of the time
+     180       4 None of the time
+  -------
+    7872
+ 
+Refusal(-1)           20
+Don't Know(-2)         4
+TOTAL =========>    7896   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1088
+ 
+Min:              1        Max:              4        Mean:                2.22
+ 
+Lead In: S09210.00[Default]
+Default Next Question: S09212.00
+--------------------------------------------------------------------------------
+S09212.00    [YSAQ-282G]                                    Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R DEPRESSED IN LAST MONTH
+ 
+How much of the time during the last month have you felt so down in the dumps 
+that nothing could cheer you up?
+ 
+UNIVERSE: All
+ 
+     129       1 All of the time
+     409       2 Most of the time
+    2328       3 Some of the time
+    5005       4 None of the time
+  -------
+    7871
+ 
+Refusal(-1)           22
+Don't Know(-2)         3
+TOTAL =========>    7896   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1088
+ 
+Min:              1        Max:              4        Mean:                3.55
+ 
+Lead In: S09211.00[Default]
+Default Next Question: S09213.00
+--------------------------------------------------------------------------------
+S09222.00    [YSAQ-364D]                                    Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             HAS R DRANK SINCE DLI?
+ 
+Have you had a drink of an alcoholic beverage since the last interview on [date 
+of last interview]? (By a drink we mean a can or bottle of beer, a glass of 
+wine, a mixed drink, or a shot of liquor.)
+ 
+UNIVERSE: R answered yes/no to ever having had a drink
+ 
+    5321       1 YES   (Go To S09223.00)
+    2545       0 NO
+  -------
+    7866
+ 
+Refusal(-1)           29
+Don't Know(-2)         1
+TOTAL =========>    7896   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1088
+ 
+Min:              0        Max:              1        Mean:                 .68
+ 
+Lead In: S09221.00[Default]  S09220.00[1:1]
+Default Next Question: S09227.00
+--------------------------------------------------------------------------------
+S09223.00    [YSAQ-365]                                     Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R DRINK ALCOHOL LAST 30 DAYS
+ 
+During the last 30 days, on how many days did you have one or more drinks of an 
+alcoholic beverage?
+ 
+UNIVERSE: R answered yes/no to ever having had a drink; has drank since DLI
+ 
+     822           0   (Go To S09227.00)
+    2325           1 TO 4
+     998           5 TO 9
+     531          10 TO 14
+     297          15 TO 19
+     179          20 TO 24
+      77          25 TO 29
+      80          30
+  -------
+    5309
+ 
+Refusal(-1)            2
+Don't Know(-2)        10
+TOTAL =========>    5321   VALID SKIP(-4)    2575     NON-INTERVIEW(-5)    1088
+ 
+Min:              0        Max:             30        Mean:                5.53
+ 
+Hard Minimum: [0]
+Hard Maximum: [30]
+ 
+Lead In: S09222.00[1:1]
+Default Next Question: S09224.00
+--------------------------------------------------------------------------------
+S09224.00    [YSAQ-366]                                     Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             # DRINKS PER DAY LAST 30 DAYS
+ 
+In the past 30 days, on the days you drank alcohol, about how many drinks did 
+you usually have?
+ 
+UNIVERSE: R answered yes/no to ever having had a drink; has drank since DLI; did
+not answer 0 to how many days has drank in the last 30 days
+ 
+      45           0
+     677           1
+     875           2
+     758           3
+     521           4
+     488           5
+     322           6
+     129           7
+     131           8
+      51           9
+     164          10
+       3          11
+     100          12
+      12          13
+       6          14
+     203          15 TO 999: 15+
+  -------
+    4485
+ 
+Refusal(-1)            4
+Don't Know(-2)        10
+TOTAL =========>    4499   VALID SKIP(-4)    3397     NON-INTERVIEW(-5)    1088
+ 
+Min:              0        Max:             99        Mean:                4.95
+ 
+Hard Minimum: [0]
+Hard Maximum: [99]
+Soft Minimum: [1]
+Soft Maximum: [NA]
+ 
+Lead In: S09223.00[Default]
+Default Next Question: S09225.00
+--------------------------------------------------------------------------------
+S09225.00    [YSAQ-367]                                     Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R HAD 5+ DRINKS PER DAY LAST 30 DAYS
+ 
+On how many days did you have five or more drinks on the same occasion during 
+the past 30 days? By occasion we mean at the same time or within hours of each 
+other.
+ 
+UNIVERSE: R answered yes/no to ever having had a drink; has drank since DLI; did
+not answer 0 to how many days has drank in the last 30 days
+ 
+    1881           0
+    1701           1 TO 4
+     491           5 TO 9
+     226          10 TO 14
+      96          15 TO 19
+      48          20 TO 24
+      21          25 TO 29
+      20          30
+  -------
+    4484
+ 
+Refusal(-1)            3
+Don't Know(-2)        12
+TOTAL =========>    4499   VALID SKIP(-4)    3397     NON-INTERVIEW(-5)    1088
+ 
+Min:              0        Max:             30        Mean:                2.77
+ 
+Hard Minimum: [0]
+Hard Maximum: [{ALCOHOLDAYSMAX}]
+ 
+Lead In: S09224.00[Default]
+Default Next Question: S09226.00
+--------------------------------------------------------------------------------
+S29889.00    [YSAQ-364D]                                    Survey Year: 2003
+  PRIMARY VARIABLE
+
+ 
+             HAS R DRANK SINCE DLI?
+ 
+Have you had a drink of an alcoholic beverage since the last interview on [date 
+of last interview]? (By a drink we mean a can or bottle of beer, a glass of 
+wine, a mixed drink, or a shot of liquor.)
+ 
+UNIVERSE: R answered yes/no to ever having had a drink
+ 
+    5404       1 YES   (Go To S29890.00)
+    2322       0 NO
+  -------
+    7726
+ 
+Refusal(-1)           26
+Don't Know(-2)         2
+TOTAL =========>    7754   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1230
+ 
+Min:              0        Max:              1        Mean:                  .7
+ 
+Lead In: S29888.00[Default]  S29887.00[1:1]
+Default Next Question: S29894.00
+--------------------------------------------------------------------------------
+S29890.00    [YSAQ-365]                                     Survey Year: 2003
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R DRINK ALCOHOL LAST 30 DAYS
+ 
+During the last 30 days, on how many days did you have one or more drinks of an 
+alcoholic beverage?
+ 
+UNIVERSE: R answered yes/no to ever having had a drink; has drank since DLI
+ 
+     756           0   (Go To S29894.00)
+    2292           1 TO 4
+    1048           5 TO 9
+     581          10 TO 14
+     311          15 TO 19
+     204          20 TO 24
+     122          25 TO 29
+      80          30
+  -------
+    5394
+ 
+Refusal(-1)            6
+Don't Know(-2)         4
+TOTAL =========>    5404   VALID SKIP(-4)    2350     NON-INTERVIEW(-5)    1230
+ 
+Min:              0        Max:             30        Mean:                5.93
+ 
+Hard Minimum: [0]
+Hard Maximum: [30]
+ 
+Lead In: S29889.00[1:1]
+Default Next Question: S29891.00
+--------------------------------------------------------------------------------
+S29891.00    [YSAQ-366]                                     Survey Year: 2003
+  PRIMARY VARIABLE
+
+ 
+             # DRINKS PER DAY LAST 30 DAYS
+ 
+In the past 30 days, on the days you drank alcohol, about how many drinks did 
+you usually have?
+ 
+UNIVERSE: R answered yes/no to ever having had a drink; has drank since DLI; did
+not answer 0 to how many days has drank in the last 30 days
+ 
+      30           0
+     616           1
+     949           2
+     852           3
+     527           4
+     509           5
+     333           6
+     141           7
+     141           8
+      37           9
+     172          10
+       7          11
+      88          12
+       8          13
+       5          14
+     214          15 TO 999: 15+
+  -------
+    4629
+ 
+Refusal(-1)            8
+Don't Know(-2)        11
+TOTAL =========>    4648   VALID SKIP(-4)    3106     NON-INTERVIEW(-5)    1230
+ 
+Min:              0        Max:             99        Mean:                5.13
+ 
+Hard Minimum: [0]
+Hard Maximum: [99]
+Soft Minimum: [1]
+Soft Maximum: [NA]
+ 
+Lead In: S29890.00[Default]
+Default Next Question: S29892.00
+--------------------------------------------------------------------------------
+S29892.00    [YSAQ-367]                                     Survey Year: 2003
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R HAD 5+ DRINKS PER DAY LAST 30 DAYS
+ 
+On how many days did you have five or more drinks on the same occasion during 
+the past 30 days?  By occasion we mean at the same time or within hours of each 
+other.
+ 
+UNIVERSE: R answered yes/no to ever having had a drink; has drank since DLI; did
+not answer 0 to how many days has drank in the last 30 days
+ 
+    1884           0
+    1758           1 TO 4
+     580           5 TO 9
+     202          10 TO 14
+      95          15 TO 19
+      60          20 TO 24
+      31          25 TO 29
+      24          30
+  -------
+    4634
+ 
+Refusal(-1)            7
+Don't Know(-2)         7
+TOTAL =========>    4648   VALID SKIP(-4)    3106     NON-INTERVIEW(-5)    1230
+ 
+Min:              0        Max:             30        Mean:                2.87
+ 
+Hard Minimum: [0]
+Hard Maximum: [{ALCOHOLDAYSMAX}]
+ 
+Lead In: S29891.00[Default]
+Default Next Question: S29893.00
+--------------------------------------------------------------------------------
+S46820.00    [YSAQ-282D]                                    Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R FELT CALM AND PEACEFUL IN PAST MONTH
+ 
+How much of the time during the last month have you felt calm and peaceful?
+ 
+UNIVERSE: All
+ 
+     601       1 All of the time
+    3771       2 Most of the time
+    2672       3 Some of the time
+     364       4 None of the time
+  -------
+    7408
+ 
+Refusal(-1)           34
+Don't Know(-2)        59
+TOTAL =========>    7501   VALID SKIP(-4)       1     NON-INTERVIEW(-5)    1482
+ 
+Min:              1        Max:              4        Mean:                2.38
+ 
+Lead In: S46819.00[Default]
+Default Next Question: S46821.00
+--------------------------------------------------------------------------------
+S46821.00    [YSAQ-282E]                                    Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R FELT DOWN OR BLUE IN PAST MONTH
+ 
+How much of the time during the last month have you felt downhearted and blue?
+ 
+UNIVERSE: All
+ 
+     154       1 All of the time
+     688       2 Most of the time
+    3990       3 Some of the time
+    2515       4 None of the time
+  -------
+    7347
+ 
+Refusal(-1)           45
+Don't Know(-2)       109
+TOTAL =========>    7501   VALID SKIP(-4)       1     NON-INTERVIEW(-5)    1482
+ 
+Min:              1        Max:              4        Mean:                3.21
+ 
+Lead In: S46820.00[Default]
+Default Next Question: S46822.00
+--------------------------------------------------------------------------------
+S46822.00    [YSAQ-282F]                                    Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R HAS BEEN A HAPPY PERSON IN PAST MONTH
+ 
+How much of the time during the last month have you been a happy person?
+ 
+UNIVERSE: All
+ 
+     956       1 All of the time
+    4122       2 Most of the time
+    2186       3 Some of the time
+     158       4 None of the time
+  -------
+    7422
+ 
+Refusal(-1)           31
+Don't Know(-2)        48
+TOTAL =========>    7501   VALID SKIP(-4)       1     NON-INTERVIEW(-5)    1482
+ 
+Min:              1        Max:              4        Mean:                2.21
+ 
+Lead In: S46821.00[Default]
+Default Next Question: S46823.00
+--------------------------------------------------------------------------------
+S46823.00    [YSAQ-282G]                                    Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R DEPRESSED IN LAST MONTH
+ 
+How much of the time during the last month have you felt so down in the dumps 
+that nothing could cheer you up?
+ 
+UNIVERSE: All
+ 
+      73       1 All of the time
+     315       2 Most of the time
+    1905       3 Some of the time
+    5030       4 None of the time
+  -------
+    7323
+ 
+Refusal(-1)           49
+Don't Know(-2)       129
+TOTAL =========>    7501   VALID SKIP(-4)       1     NON-INTERVIEW(-5)    1482
+ 
+Min:              1        Max:              4        Mean:                3.62
+ 
+Lead In: S46822.00[Default]
+Default Next Question: S46824.00
+--------------------------------------------------------------------------------
+S46835.00    [YSAQ-363]                                     Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             R EVER DRINK ALCOHOL?
+ 
+Have you ever had a drink of an alcoholic beverage? (By a drink we mean a can or
+bottle of beer, a glass of wine, a mixed drink, or a shot of liquor. Do not 
+include childhood sips that you might have had from an older person's drink.)
+ 
+UNIVERSE: All except prisoners in an insecure environment; did not answer 
+question if had ever drank as of DLI
+ 
+       0       1 YES
+       0       0 NO
+  -------
+       0
+ 
+Refusal(-1)            1
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7501     NON-INTERVIEW(-5)    1482
+ 
+Min:        Max:        Mean:                   0
+ 
+Lead In: S46833.00[1:1]
+Default Next Question: S46842.00
+--------------------------------------------------------------------------------
+S46837.00    [YSAQ-364D]                                    Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             HAS R DRANK SINCE DLI?
+ 
+Have you had a drink of an alcoholic beverage since the last interview on [date 
+of last interview]? (By a drink we mean a can or bottle of beer, a glass of 
+wine, a mixed drink, or a shot of liquor.)
+ 
+UNIVERSE: All except prisoners in an insecure environment; answered yes/no to 
+ever having had a drink
+ 
+    5348       1 YES   (Go To S46838.00)
+    2054       0 NO
+  -------
+    7402
+ 
+Refusal(-1)           52
+Don't Know(-2)        16
+TOTAL =========>    7470   VALID SKIP(-4)      32     NON-INTERVIEW(-5)    1482
+ 
+Min:              0        Max:              1        Mean:                 .72
+ 
+Lead In: S46836.00[Default]  S46834.00[1:1]
+Default Next Question: S46842.00
+--------------------------------------------------------------------------------
+S46838.00    [YSAQ-365]                                     Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R DRINK ALCOHOL LAST 30 DAYS
+ 
+During the last 30 days, on how many days did you have one or more drinks of an 
+alcoholic beverage?
+ 
+UNIVERSE: All except prisoners in an insecure environment; answered yes/no to 
+ever having had a drink; has drank since DLI
+ 
+     608           0   (Go To S46842.00)
+    2217           1 TO 4
+    1120           5 TO 9
+     563          10 TO 14
+     344          15 TO 19
+     220          20 TO 24
+     105          25 TO 29
+      84          30
+  -------
+    5261
+ 
+Refusal(-1)           10
+Don't Know(-2)        77
+TOTAL =========>    5348   VALID SKIP(-4)    2154     NON-INTERVIEW(-5)    1482
+ 
+Min:              0        Max:             30        Mean:                 6.2
+ 
+Hard Minimum: [0]
+Hard Maximum: [30]
+ 
+Lead In: S46837.00[1:1]
+Default Next Question: S46839.00
+--------------------------------------------------------------------------------
+S46839.00    [YSAQ-366]                                     Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             # DRINKS PER DAY LAST 30 DAYS
+ 
+In the past 30 days, on the days you drank alcohol, about how many drinks did 
+you usually have?
+ 
+UNIVERSE: All except prisoners in an insecure environment; answered yes/no to 
+ever having had a drink; has drank since DLI; did not answer 0 to how many days 
+has drank in the last 30 days
+ 
+      26           0
+     645           1
+    1064           2
+     837           3
+     536           4
+     480           5
+     329           6
+     115           7
+     118           8
+      27           9
+     174          10
+       6          11
+      65          12
+       9          13
+       3          14
+     183          15 TO 999: 15+
+  -------
+    4617
+ 
+Refusal(-1)           13
+Don't Know(-2)       110
+TOTAL =========>    4740   VALID SKIP(-4)    2762     NON-INTERVIEW(-5)    1482
+ 
+Min:              0        Max:             99        Mean:                4.84
+ 
+Hard Minimum: [0]
+Hard Maximum: [99]
+Soft Minimum: [1]
+Soft Maximum: [NA]
+ 
+Lead In: S46838.00[Default]
+Default Next Question: S46840.00
+--------------------------------------------------------------------------------
+S46840.00    [YSAQ-367]                                     Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R HAD 5+ DRINKS PER DAY LAST 30 DAYS
+ 
+On how many days did you have five or more drinks on the same occasion during 
+the past 30 days? By occasion we mean at the same time or within hours of each 
+other.
+ 
+UNIVERSE: All except prisoners in an insecure environment; answered yes/no to 
+ever having had a drink; has drank since DLI; did not answer 0 to how many days 
+has drank in the last 30 days
+ 
+    1914           0
+    1662           1 TO 4
+     578           5 TO 9
+     212          10 TO 14
+     111          15 TO 19
+      46          20 TO 24
+      23          25 TO 29
+      20          30
+  -------
+    4566
+ 
+Refusal(-1)           23
+Don't Know(-2)       151
+TOTAL =========>    4740   VALID SKIP(-4)    2762     NON-INTERVIEW(-5)    1482
+ 
+Min:              0        Max:             30        Mean:                2.85
+ 
+Hard Minimum: [0]
+Hard Maximum: [{ALCOHOLDAYSMAX}]
+ 
+Lead In: S46839.00[Default]
+Default Next Question: S46841.00
+--------------------------------------------------------------------------------
+S63190.00    [YSAQ-363]                                     Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             R EVER DRINK ALCOHOL?
+ 
+Have you ever had a drink of an alcoholic beverage? (By a drink we mean a can or
+bottle of beer, a glass of wine, a mixed drink, or a shot of liquor. Do not 
+include childhood sips that you might have had from an older person's drink.)
+ 
+UNIVERSE: All except prisoners in an insecure environment; did not answer 
+question if had ever drank as of DLI
+ 
+       1       1 YES
+       0       0 NO
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7337     NON-INTERVIEW(-5)    1646
+ 
+Min:              1        Max:              1        Mean:                   1
+ 
+Lead In: S63188.00[1:1]
+Default Next Question: S63192.00
+--------------------------------------------------------------------------------
+S63192.00    [YSAQ-364]                                     Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             HOW OLD R 1ST TIME DRINK ALCOHOL?
+ 
+How old were you the first time you had a glass of beer or wine or a drink of 
+liquor such as whiskey, gin, scotch, etc?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has ever drank 
+alcohol and did not answer age 1st drank as of DLI
+ 
+       0           0
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+       1          18 TO 99: 18+
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    7337     NON-INTERVIEW(-5)    1646
+ 
+Min:             21        Max:             21        Mean:                  21
+ 
+Hard Minimum: [1]
+Hard Maximum: [age at interview date]
+Soft Minimum: [3]
+Soft Maximum: [NA]
+ 
+Lead In: S63190.00[Default]
+Default Next Question: S63193.00
+--------------------------------------------------------------------------------
+S63193.00    [YSAQ-364D]                                    Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             HAS R DRANK SINCE DLI?
+ 
+Have you had a drink of an alcoholic beverage since the last interview on [date 
+of last interview]? (By a drink we mean a can or bottle of beer, a glass of 
+wine, a mixed drink, or a shot of liquor.)
+ 
+UNIVERSE: All except prisoners in an insecure environment; answered yes/no to 
+ever having had a drink
+ 
+    5446       1 YES   (Go To S63194.00)
+    1737       0 NO
+  -------
+    7183
+ 
+Refusal(-1)           54
+Don't Know(-2)        21
+TOTAL =========>    7258   VALID SKIP(-4)      80     NON-INTERVIEW(-5)    1646
+ 
+Min:              0        Max:              1        Mean:                 .76
+ 
+Lead In: S63191.00[Default] S63192.00[Default]  S63189.00[1:1]
+Default Next Question: S63198.00
+--------------------------------------------------------------------------------
+S63194.00    [YSAQ-365]                                     Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R DRINK ALCOHOL LAST 30 DAYS
+ 
+During the last 30 days, on how many days did you have one or more drinks of an 
+alcoholic beverage?
+ 
+UNIVERSE: All except prisoners in an insecure environment; answered yes/no to 
+ever having had a drink; has drank since DLI
+ 
+     614           0   (Go To S63198.00)
+    2183           1 TO 4
+    1137           5 TO 9
+     600          10 TO 14
+     346          15 TO 19
+     240          20 TO 24
+     118          25 TO 29
+     101          30
+  -------
+    5339
+ 
+Refusal(-1)           20
+Don't Know(-2)        87
+TOTAL =========>    5446   VALID SKIP(-4)    1892     NON-INTERVIEW(-5)    1646
+ 
+Min:              0        Max:             30        Mean:                6.47
+ 
+Hard Minimum: [0]
+Hard Maximum: [30]
+ 
+Lead In: S63193.00[1:1]
+Default Next Question: S63195.00
+--------------------------------------------------------------------------------
+S63195.00    [YSAQ-366]                                     Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             # DRINKS PER DAY LAST 30 DAYS
+ 
+In the past 30 days, on the days you drank alcohol, about how many drinks did 
+you usually have?
+ 
+UNIVERSE: All except prisoners in an insecure environment; answered yes/no to 
+ever having had a drink; has drank since DLI; did not answer 0 to how many days 
+has drank in the last 30 days
+ 
+      22           0
+     644           1
+    1135           2
+     908           3
+     546           4
+     496           5
+     322           6
+     117           7
+     105           8
+      25           9
+     144          10
+       1          11
+      62          12
+      11          13
+       7          14
+     143          15 TO 999: 15+
+  -------
+    4688
+ 
+Refusal(-1)           23
+Don't Know(-2)       121
+TOTAL =========>    4832   VALID SKIP(-4)    2506     NON-INTERVIEW(-5)    1646
+ 
+Min:              0        Max:             99        Mean:                4.37
+ 
+Hard Minimum: [0]
+Hard Maximum: [99]
+Soft Minimum: [1]
+Soft Maximum: [NA]
+ 
+Lead In: S63194.00[Default]
+Default Next Question: S63196.00
+--------------------------------------------------------------------------------
+S63196.00    [YSAQ-367]                                     Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R HAD 5+ DRINKS PER DAY LAST 30 DAYS
+ 
+On how many days did you have five or more drinks on the same occasion during 
+the past 30 days? By occasion we mean at the same time or within hours of each 
+other.
+ 
+UNIVERSE: All except prisoners in an insecure environment; answered yes/no to 
+ever having had a drink; has drank since DLI; did not answer 0 to how many days 
+has drank in the last 30 days
+ 
+    1996           0
+    1679           1 TO 4
+     555           5 TO 9
+     197          10 TO 14
+      93          15 TO 19
+      55          20 TO 24
+      28          25 TO 29
+      22          30
+  -------
+    4625
+ 
+Refusal(-1)           36
+Don't Know(-2)       171
+TOTAL =========>    4832   VALID SKIP(-4)    2506     NON-INTERVIEW(-5)    1646
+ 
+Min:              0        Max:             30        Mean:                2.75
+ 
+Hard Minimum: [0]
+Hard Maximum: [{ALCOHOLDAYSMAX}]
+ 
+Lead In: S63195.00[Default]
+Default Next Question: S63197.00
+--------------------------------------------------------------------------------
+S83324.00    [YSAQ-282D]                                    Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R FELT CALM AND PEACEFUL IN PAST MONTH
+ 
+How much of the time during the last month have you felt calm and peaceful?
+ 
+UNIVERSE: All
+ 
+     598       1 All of the time
+    3847       2 Most of the time
+    2724       3 Some of the time
+     293       4 None of the time
+  -------
+    7462
+ 
+Refusal(-1)           35
+Don't Know(-2)        62
+TOTAL =========>    7559   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1425
+ 
+Min:              1        Max:              4        Mean:                2.36
+ 
+Lead In: S83323.00[Default]
+Default Next Question: S83325.00
+--------------------------------------------------------------------------------
+S83325.00    [YSAQ-282E]                                    Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R FELT DOWN OR BLUE IN PAST MONTH
+ 
+How much of the time during the last month have you felt downhearted and blue?
+ 
+UNIVERSE: All
+ 
+     120       1 All of the time
+     605       2 Most of the time
+    4010       3 Some of the time
+    2616       4 None of the time
+  -------
+    7351
+ 
+Refusal(-1)           55
+Don't Know(-2)       153
+TOTAL =========>    7559   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1425
+ 
+Min:              1        Max:              4        Mean:                3.24
+ 
+Lead In: S83324.00[Default]
+Default Next Question: S83326.00
+--------------------------------------------------------------------------------
+S83326.00    [YSAQ-282F]                                    Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R HAS BEEN A HAPPY PERSON IN PAST MONTH
+ 
+How much of the time during the last month have you been a happy person?
+ 
+UNIVERSE: All
+ 
+     945       1 All of the time
+    4306       2 Most of the time
+    2090       3 Some of the time
+     133       4 None of the time
+  -------
+    7474
+ 
+Refusal(-1)           29
+Don't Know(-2)        56
+TOTAL =========>    7559   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1425
+ 
+Min:              1        Max:              4        Mean:                2.19
+ 
+Lead In: S83325.00[Default]
+Default Next Question: S83327.00
+--------------------------------------------------------------------------------
+S83327.00    [YSAQ-282G]                                    Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R DEPRESSED IN LAST MONTH
+ 
+How much of the time during the last month have you felt so down in the dumps 
+that nothing could cheer you up?
+ 
+UNIVERSE: All
+ 
+      65       1 All of the time
+     274       2 Most of the time
+    1771       3 Some of the time
+    5265       4 None of the time
+  -------
+    7375
+ 
+Refusal(-1)           47
+Don't Know(-2)       137
+TOTAL =========>    7559   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1425
+ 
+Min:              1        Max:              4        Mean:                3.66
+ 
+Lead In: S83326.00[Default]
+Default Next Question: S83328.00
+--------------------------------------------------------------------------------
+S83338.00    [YSAQ-364D]                                    Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             HAS R DRANK SINCE DLI?
+ 
+Have you had a drink of an alcoholic beverage since the last interview on [date 
+of last interview]? (By a drink we mean a can or bottle of beer, a glass of 
+wine, a mixed drink, or a shot of liquor.)
+ 
+UNIVERSE: All except prisoners in an insecure environment
+ 
+    5639       1 YES   (Go To S83339.00)
+    1756       0 NO
+  -------
+    7395
+ 
+Refusal(-1)           49
+Don't Know(-2)        16
+TOTAL =========>    7460   VALID SKIP(-4)      99     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:              1        Mean:                 .76
+ 
+Lead In: S83337.00[Default]
+Default Next Question: S83343.00
+--------------------------------------------------------------------------------
+S83339.00    [YSAQ-365]                                     Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R DRINK ALCOHOL LAST 30 DAYS
+ 
+During the last 30 days, on how many days did you have one or more drinks of an 
+alcoholic beverage?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has drank since DLI
+ 
+     595           0   (Go To S83343.00)
+    2416           1 TO 4
+    1189           5 TO 9
+     572          10 TO 14
+     307          15 TO 19
+     241          20 TO 24
+     112          25 TO 29
+     104          30
+  -------
+    5536
+ 
+Refusal(-1)           22
+Don't Know(-2)        81
+TOTAL =========>    5639   VALID SKIP(-4)    1920     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:             30        Mean:                6.21
+ 
+Hard Minimum: [0]
+Hard Maximum: [30]
+ 
+Lead In: S83338.00[1:1]
+Default Next Question: S83340.00
+--------------------------------------------------------------------------------
+S83340.00    [YSAQ-366]                                     Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             # DRINKS PER DAY LAST 30 DAYS
+ 
+In the past 30 days, on the days you drank alcohol, about how many drinks did 
+you usually have?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has drank since DLI; 
+did not answer 0 to how many days has drank in the last 30 days
+ 
+      13           0
+     730           1
+    1247           2
+     947           3
+     561           4
+     516           5
+     305           6
+      96           7
+     103           8
+      23           9
+     148          10
+       3          11
+      70          12
+       4          13
+       3          14
+     151          15 TO 999: 15+
+  -------
+    4920
+ 
+Refusal(-1)           21
+Don't Know(-2)       103
+TOTAL =========>    5044   VALID SKIP(-4)    2515     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:             99        Mean:                4.33
+ 
+Hard Minimum: [0]
+Hard Maximum: [99]
+Soft Minimum: [1]
+Soft Maximum: [NA]
+ 
+Lead In: S83339.00[Default]
+Default Next Question: S83341.00
+--------------------------------------------------------------------------------
+S83341.00    [YSAQ-367]                                     Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R HAD 5+ DRINKS PER DAY LAST 30 DAYS
+ 
+On how many days did you have five or more drinks on the same occasion during 
+the past 30 days? By occasion we mean at the same time or within hours of each 
+other.
+ 
+UNIVERSE: All except prisoners in an insecure environment; has drank since DLI; 
+did not answer 0 to how many days has drank in the last 30 days
+ 
+    2145           0
+    1806           1 TO 4
+     529           5 TO 9
+     187          10 TO 14
+      70          15 TO 19
+      42          20 TO 24
+      26          25 TO 29
+      25          30
+  -------
+    4830
+ 
+Refusal(-1)           35
+Don't Know(-2)       179
+TOTAL =========>    5044   VALID SKIP(-4)    2515     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:             30        Mean:                2.49
+ 
+Hard Minimum: [0]
+Hard Maximum: [{ALCOHOLDAYSMAX}]
+ 
+Lead In: S83340.00[Default]
+Default Next Question: S83342.00
+--------------------------------------------------------------------------------
+S84965.00    [YINC-1700]                                    Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 2005, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+Truncated values are applied to the top 2 percent of respondents with valid 
+non-missing responses.  The lowest value for the top 2 percent of cases is used 
+as the truncation level ($ 80,471 for this variable).  Values for all cases at 
+or over that level are averaged. That average is then assigned to each of the 
+top 2 percent of the cases.
+ 
+      29           0
+      94           1 TO 999
+     128        1000 TO 1999
+     134        2000 TO 2999
+     133        3000 TO 3999
+     100        4000 TO 4999
+     177        5000 TO 5999
+     114        6000 TO 6999
+      91        7000 TO 7999
+      94        8000 TO 8999
+      68        9000 TO 9999
+     728       10000 TO 14999
+     709       15000 TO 19999
+     689       20000 TO 24999
+    1575       25000 TO 49999
+     223       50000 TO 99999999: 50000+
+  -------
+    5086
+ 
+Refusal(-1)           48   (Go To S84966.00)
+Don't Know(-2)      1252   (Go To S84966.00)
+TOTAL =========>    6386   VALID SKIP(-4)    1173     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:          80471        Mean:            20686.46
+ 
+Hard Minimum: [0]
+Hard Maximum: [5000000]
+Soft Minimum: [0]
+Soft Maximum: [200000]
+ 
+Lead In: S84963.00[Default] S84964.00[Default]
+Default Next Question: S84967.00
+--------------------------------------------------------------------------------
+T07406.00    [YSAQ-364D]                                    Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             HAS R DRANK SINCE DLI?
+ 
+Have you had a drink of an alcoholic beverage since the last interview on [date 
+of last interview]? (By a drink we mean a can or bottle of beer, a glass of 
+wine, a mixed drink, or a shot of liquor.)
+ 
+UNIVERSE: All except prisoners in an insecure environment
+ 
+    5521       1 YES   (Go To T07407.00)
+    1727       0 NO
+  -------
+    7248
+ 
+Refusal(-1)           55
+Don't Know(-2)        20
+TOTAL =========>    7323   VALID SKIP(-4)      95     NON-INTERVIEW(-5)    1566
+ 
+Min:              0        Max:              1        Mean:                 .76
+ 
+Lead In: T07405.00[Default]
+Default Next Question: T07411.00
+--------------------------------------------------------------------------------
+T07407.00    [YSAQ-365]                                     Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R DRINK ALCOHOL LAST 30 DAYS
+ 
+During the last 30 days, on how many days did you have one or more drinks of an 
+alcoholic beverage?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has drank since DLI
+ 
+     609           0   (Go To T07411.00)
+    2330           1 TO 4
+    1124           5 TO 9
+     603          10 TO 14
+     341          15 TO 19
+     208          20 TO 24
+     115          25 TO 29
+      95          30
+  -------
+    5425
+ 
+Refusal(-1)           12
+Don't Know(-2)        84
+TOTAL =========>    5521   VALID SKIP(-4)    1897     NON-INTERVIEW(-5)    1566
+ 
+Min:              0        Max:             30        Mean:                6.22
+ 
+Hard Minimum: [0]
+Hard Maximum: [30]
+ 
+Lead In: T07406.00[1:1]
+Default Next Question: T07408.00
+--------------------------------------------------------------------------------
+T07408.00    [YSAQ-366]                                     Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             # DRINKS PER DAY LAST 30 DAYS
+ 
+In the past 30 days, on the days you drank alcohol, about how many drinks did 
+you usually have?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has drank since DLI; 
+did not answer 0 to how many days has drank in the last 30 days
+ 
+       8           0
+     710           1
+    1313           2
+     943           3
+     542           4
+     456           5
+     327           6
+      79           7
+     106           8
+      23           9
+     132          10
+       3          11
+      41          12
+       1          13
+       2          14
+     121          15 TO 999: 15+
+  -------
+    4807
+ 
+Refusal(-1)           16
+Don't Know(-2)        89
+TOTAL =========>    4912   VALID SKIP(-4)    2506     NON-INTERVIEW(-5)    1566
+ 
+Min:              0        Max:             99        Mean:                4.12
+ 
+Hard Minimum: [0]
+Hard Maximum: [99]
+Soft Minimum: [1]
+Soft Maximum: [NA]
+ 
+Lead In: T07407.00[Default]
+Default Next Question: T07409.00
+--------------------------------------------------------------------------------
+T07409.00    [YSAQ-367]                                     Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R HAD 5+ DRINKS PER DAY LAST 30 DAYS
+ 
+On how many days did you have five or more drinks on the same occasion during 
+the past 30 days? By occasion we mean at the same time or within hours of each 
+other.
+ 
+UNIVERSE: All except prisoners in an insecure environment; has drank since DLI; 
+did not answer 0 to how many days has drank in the last 30 days
+ 
+    2138           0
+    1797           1 TO 4
+     497           5 TO 9
+     169          10 TO 14
+      73          15 TO 19
+      45          20 TO 24
+      16          25 TO 29
+      16          30
+  -------
+    4751
+ 
+Refusal(-1)           29
+Don't Know(-2)       132
+TOTAL =========>    4912   VALID SKIP(-4)    2506     NON-INTERVIEW(-5)    1566
+ 
+Min:              0        Max:             30        Mean:                2.37
+ 
+Hard Minimum: [0]
+Hard Maximum: [{ALCOHOLDAYSMAX}]
+ 
+Lead In: T07408.00[Default]
+Default Next Question: T07410.00
+--------------------------------------------------------------------------------
+T27827.00    [YSAQ-282D]                                    Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R FELT CALM AND PEACEFUL IN PAST MONTH
+ 
+How much of the time during the last month have you felt calm and peaceful?
+ 
+UNIVERSE: All
+ 
+     465       1 All of the time
+    3748       2 Most of the time
+    2840       3 Some of the time
+     327       4 None of the time
+  -------
+    7380
+ 
+Refusal(-1)           45
+Don't Know(-2)        65
+TOTAL =========>    7490   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1494
+ 
+Min:              1        Max:              4        Mean:                2.41
+ 
+Lead In: T27826.00[Default]
+Default Next Question: T27828.00
+--------------------------------------------------------------------------------
+T27828.00    [YSAQ-282E]                                    Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R FELT DOWN OR BLUE IN PAST MONTH
+ 
+How much of the time during the last month have you felt downhearted and blue?
+ 
+UNIVERSE: All
+ 
+     108       1 All of the time
+     654       2 Most of the time
+    4031       3 Some of the time
+    2502       4 None of the time
+  -------
+    7295
+ 
+Refusal(-1)           63
+Don't Know(-2)       132
+TOTAL =========>    7490   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1494
+ 
+Min:              1        Max:              4        Mean:                3.22
+ 
+Lead In: T27827.00[Default]
+Default Next Question: T27829.00
+--------------------------------------------------------------------------------
+T27829.00    [YSAQ-282F]                                    Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R HAS BEEN A HAPPY PERSON IN PAST MONTH
+ 
+How much of the time during the last month have you been a happy person?
+ 
+UNIVERSE: All
+ 
+     760       1 All of the time
+    4298       2 Most of the time
+    2195       3 Some of the time
+     144       4 None of the time
+  -------
+    7397
+ 
+Refusal(-1)           44
+Don't Know(-2)        49
+TOTAL =========>    7490   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1494
+ 
+Min:              1        Max:              4        Mean:                2.23
+ 
+Lead In: T27828.00[Default]
+Default Next Question: T27830.00
+--------------------------------------------------------------------------------
+T27830.00    [YSAQ-282G]                                    Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R DEPRESSED IN LAST MONTH
+ 
+How much of the time during the last month have you felt so down in the dumps 
+that nothing could cheer you up?
+ 
+UNIVERSE: All
+ 
+      68       1 All of the time
+     257       2 Most of the time
+    1795       3 Some of the time
+    5171       4 None of the time
+  -------
+    7291
+ 
+Refusal(-1)           60
+Don't Know(-2)       139
+TOTAL =========>    7490   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1494
+ 
+Min:              1        Max:              4        Mean:                3.66
+ 
+Lead In: T27829.00[Default]
+Default Next Question: T27831.00
+--------------------------------------------------------------------------------
+T27841.00    [YSAQ-364D]                                    Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             HAS R DRANK SINCE DLI?
+ 
+Have you had a drink of an alcoholic beverage since the last interview on [date 
+of last interview]? (By a drink we mean a can or bottle of beer, a glass of 
+wine, a mixed drink, or a shot of liquor.)
+ 
+UNIVERSE: All except prisoners in an insecure environment
+ 
+    5604       1 YES   (Go To T27842.00)
+    1719       0 NO
+  -------
+    7323
+ 
+Refusal(-1)           77
+Don't Know(-2)        21
+TOTAL =========>    7421   VALID SKIP(-4)      69     NON-INTERVIEW(-5)    1494
+ 
+Min:              0        Max:              1        Mean:                 .77
+ 
+Lead In: T27840.00[Default]
+Default Next Question: T27846.00
+--------------------------------------------------------------------------------
+T27842.00    [YSAQ-365]                                     Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R DRINK ALCOHOL LAST 30 DAYS
+ 
+During the last 30 days, on how many days did you have one or more drinks of an 
+alcoholic beverage?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has drank since DLI
+ 
+     628           0   (Go To T27846.00)
+    2314           1 TO 4
+    1216           5 TO 9
+     549          10 TO 14
+     337          15 TO 19
+     223          20 TO 24
+     120          25 TO 29
+     114          30
+  -------
+    5501
+ 
+Refusal(-1)           11
+Don't Know(-2)        92
+TOTAL =========>    5604   VALID SKIP(-4)    1886     NON-INTERVIEW(-5)    1494
+ 
+Min:              0        Max:             30        Mean:                6.31
+ 
+Hard Minimum: [0]
+Hard Maximum: [30]
+ 
+Lead In: T27841.00[1:1]
+Default Next Question: T27843.00
+--------------------------------------------------------------------------------
+T27843.00    [YSAQ-366]                                     Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             # DRINKS PER DAY LAST 30 DAYS
+ 
+In the past 30 days, on the days you drank alcohol, about how many drinks did 
+you usually have?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has drank since DLI; 
+did not answer 0 to how many days has drank in the last 30 days
+ 
+      13           0
+     751           1
+    1342           2
+     888           3
+     567           4
+     471           5
+     304           6
+      92           7
+      93           8
+      24           9
+     112          10
+       2          11
+      61          12
+       6          13
+       5          14
+     116          15 TO 999: 15+
+  -------
+    4847
+ 
+Refusal(-1)           16
+Don't Know(-2)       113
+TOTAL =========>    4976   VALID SKIP(-4)    2514     NON-INTERVIEW(-5)    1494
+ 
+Min:              0        Max:             99        Mean:                4.08
+ 
+Hard Minimum: [0]
+Hard Maximum: [99]
+Soft Minimum: [1]
+Soft Maximum: [NA]
+ 
+Lead In: T27842.00[Default]
+Default Next Question: T27844.00
+--------------------------------------------------------------------------------
+T27844.00    [YSAQ-367]                                     Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R HAD 5+ DRINKS PER DAY LAST 30 DAYS
+ 
+On how many days did you have five or more drinks on the same occasion during 
+the past 30 days? By occasion we mean at the same time or within hours of each 
+other.
+ 
+UNIVERSE: All except prisoners in an insecure environment; has drank since DLI; 
+did not answer 0 to how many days has drank in the last 30 days
+ 
+    2227           0
+    1755           1 TO 4
+     500           5 TO 9
+     149          10 TO 14
+      71          15 TO 19
+      56          20 TO 24
+      21          25 TO 29
+      18          30
+  -------
+    4797
+ 
+Refusal(-1)           27
+Don't Know(-2)       152
+TOTAL =========>    4976   VALID SKIP(-4)    2514     NON-INTERVIEW(-5)    1494
+ 
+Min:              0        Max:             30        Mean:                2.38
+ 
+Hard Minimum: [0]
+Hard Maximum: [{ALCOHOLDAYSMAX}]
+ 
+Lead In: T27843.00[Default]
+Default Next Question: T27845.00
+--------------------------------------------------------------------------------
+T44958.00    [YSAQ-364D]                                    Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             HAS R DRANK SINCE DLI?
+ 
+Have you had a drink of an alcoholic beverage since the last interview on [date 
+of last interview]? (By a drink we mean a can or bottle of beer, a glass of 
+wine, a mixed drink, or a shot of liquor.)
+ 
+UNIVERSE: All except prisoners in an insecure environment
+ 
+    5501       1 YES   (Go To T44959.00)
+    1926       0 NO
+  -------
+    7427
+ 
+Refusal(-1)           72
+Don't Know(-2)        10
+TOTAL =========>    7509   VALID SKIP(-4)      50     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:              1        Mean:                 .74
+ 
+Lead In: T44957.00[Default]
+Default Next Question: T44963.00
+--------------------------------------------------------------------------------
+T44959.00    [YSAQ-365]                                     Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R DRINK ALCOHOL LAST 30 DAYS
+ 
+During the last 30 days, on how many days did you have one or more drinks of an 
+alcoholic beverage?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has drank since DLI
+ 
+     605           0   (Go To T44963.00)
+    2324           1 TO 4
+    1129           5 TO 9
+     591          10 TO 14
+     332          15 TO 19
+     236          20 TO 24
+     104          25 TO 29
+     108          30
+  -------
+    5429
+ 
+Refusal(-1)           10
+Don't Know(-2)        62
+TOTAL =========>    5501   VALID SKIP(-4)    2058     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:             30        Mean:                6.28
+ 
+Hard Minimum: [0]
+Hard Maximum: [30]
+ 
+Lead In: T44958.00[1:1]
+Default Next Question: T44960.00
+--------------------------------------------------------------------------------
+T44960.00    [YSAQ-366]                                     Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             # DRINKS PER DAY LAST 30 DAYS
+ 
+In the past 30 days, on the days you drank alcohol, about how many drinks did 
+you usually have?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has drank since DLI; 
+did not answer 0 to how many days has drank in the last 30 days
+ 
+       8           0
+     776           1
+    1360           2
+     946           3
+     562           4
+     421           5
+     282           6
+      90           7
+      94           8
+      12           9
+     117          10
+       1          11
+      47          12
+       3          13
+       3          14
+      96          15 TO 999: 15+
+  -------
+    4818
+ 
+Refusal(-1)           12
+Don't Know(-2)        66
+TOTAL =========>    4896   VALID SKIP(-4)    2663     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:             99        Mean:                3.83
+ 
+Hard Minimum: [0]
+Hard Maximum: [99]
+Soft Minimum: [1]
+Soft Maximum: [NA]
+ 
+Lead In: T44959.00[Default]
+Default Next Question: T44961.00
+--------------------------------------------------------------------------------
+T44961.00    [YSAQ-367]                                     Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R HAD 5+ DRINKS PER DAY LAST 30 DAYS
+ 
+On how many days did you have five or more drinks on the same occasion during 
+the past 30 days? By occasion we mean at the same time or within hours of each 
+other.
+ 
+UNIVERSE: All except prisoners in an insecure environment; has drank since DLI; 
+did not answer 0 to how many days has drank in the last 30 days
+ 
+    2260           0
+    1715           1 TO 4
+     500           5 TO 9
+     149          10 TO 14
+      70          15 TO 19
+      44          20 TO 24
+      17          25 TO 29
+      22          30
+  -------
+    4777
+ 
+Refusal(-1)           24
+Don't Know(-2)        95
+TOTAL =========>    4896   VALID SKIP(-4)    2663     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:             30        Mean:                 2.3
+ 
+Hard Minimum: [0]
+Hard Maximum: [{ALCOHOLDAYSMAX}]
+ 
+Lead In: T44960.00[Default]
+Default Next Question: T44962.00
+--------------------------------------------------------------------------------
+T61438.00    [YSAQ-282D]                                    Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R FELT CALM AND PEACEFUL IN PAST MONTH
+ 
+How much of the time during the last month have you felt calm and peaceful?
+ 
+UNIVERSE: All
+ 
+     592       1 All of the time
+    3703       2 Most of the time
+    2767       3 Some of the time
+     299       4 None of the time
+  -------
+    7361
+ 
+Refusal(-1)           48
+Don't Know(-2)        67
+TOTAL =========>    7476   VALID SKIP(-4)       3     NON-INTERVIEW(-5)    1505
+ 
+Min:              1        Max:              4        Mean:                2.38
+ 
+Lead In: T61437.00[Default]
+Default Next Question: T61439.00
+--------------------------------------------------------------------------------
+T61439.00    [YSAQ-282E]                                    Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R FELT DOWN OR BLUE IN PAST MONTH
+ 
+How much of the time during the last month have you felt downhearted and blue?
+ 
+UNIVERSE: All
+ 
+     109       1 All of the time
+     505       2 Most of the time
+    3702       3 Some of the time
+    2976       4 None of the time
+  -------
+    7292
+ 
+Refusal(-1)           56
+Don't Know(-2)       128
+TOTAL =========>    7476   VALID SKIP(-4)       3     NON-INTERVIEW(-5)    1505
+ 
+Min:              1        Max:              4        Mean:                3.31
+ 
+Lead In: T61438.00[Default]
+Default Next Question: T61440.00
+--------------------------------------------------------------------------------
+T61440.00    [YSAQ-282F]                                    Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R HAS BEEN A HAPPY PERSON IN PAST MONTH
+ 
+How much of the time during the last month have you been a happy person?
+ 
+UNIVERSE: All
+ 
+     835       1 All of the time
+    4225       2 Most of the time
+    2188       3 Some of the time
+     138       4 None of the time
+  -------
+    7386
+ 
+Refusal(-1)           44
+Don't Know(-2)        46
+TOTAL =========>    7476   VALID SKIP(-4)       3     NON-INTERVIEW(-5)    1505
+ 
+Min:              1        Max:              4        Mean:                2.22
+ 
+Lead In: T61439.00[Default]
+Default Next Question: T61441.00
+--------------------------------------------------------------------------------
+T61441.00    [YSAQ-282G]                                    Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R DEPRESSED IN LAST MONTH
+ 
+How much of the time during the last month have you felt so down in the dumps 
+that nothing could cheer you up?
+ 
+UNIVERSE: All
+ 
+      59       1 All of the time
+     241       2 Most of the time
+    1688       3 Some of the time
+    5301       4 None of the time
+  -------
+    7289
+ 
+Refusal(-1)           54
+Don't Know(-2)       133
+TOTAL =========>    7476   VALID SKIP(-4)       3     NON-INTERVIEW(-5)    1505
+ 
+Min:              1        Max:              4        Mean:                3.68
+ 
+Lead In: T61440.00[Default]
+Default Next Question: T61442.00
+--------------------------------------------------------------------------------
+T61447.00    [YSAQ-364D]                                    Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             HAS R DRANK SINCE DLI?
+ 
+Have you had a drink of an alcoholic beverage since the last interview on [date 
+of last interview]? (By a drink we mean a can or bottle of beer, a glass of 
+wine, a mixed drink, or a shot of liquor.)
+ 
+UNIVERSE: All except prisoners in an insecure environment
+ 
+    5365       1 YES   (Go To T61448.00)
+    1935       0 NO
+  -------
+    7300
+ 
+Refusal(-1)           65
+Don't Know(-2)        28
+TOTAL =========>    7393   VALID SKIP(-4)      86     NON-INTERVIEW(-5)    1505
+ 
+Min:              0        Max:              1        Mean:                 .73
+ 
+Lead In: T61446.00[Default]
+Default Next Question: T61452.00
+--------------------------------------------------------------------------------
+T61448.00    [YSAQ-365]                                     Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R DRINK ALCOHOL LAST 30 DAYS
+ 
+During the last 30 days, on how many days did you have one or more drinks of an 
+alcoholic beverage?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has drank since DLI
+ 
+     607           0   (Go To T61452.00)
+    2268           1 TO 4
+    1072           5 TO 9
+     573          10 TO 14
+     283          15 TO 19
+     230          20 TO 24
+     130          25 TO 29
+     109          30
+  -------
+    5272
+ 
+Refusal(-1)           15
+Don't Know(-2)        78
+TOTAL =========>    5365   VALID SKIP(-4)    2114     NON-INTERVIEW(-5)    1505
+ 
+Min:              0        Max:             30        Mean:                6.31
+ 
+Hard Minimum: [0]
+Hard Maximum: [30]
+ 
+Lead In: T61447.00[1:1]
+Default Next Question: T61449.00
+--------------------------------------------------------------------------------
+T61449.00    [YSAQ-366]                                     Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             # DRINKS PER DAY LAST 30 DAYS
+ 
+In the past 30 days, on the days you drank alcohol, about how many drinks did 
+you usually have?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has drank since DLI; 
+did not answer 0 to how many days has drank in the last 30 days
+ 
+      26           0
+     764           1
+    1409           2
+     929           3
+     498           4
+     397           5
+     246           6
+      63           7
+      80           8
+      13           9
+      93          10
+       2          11
+      47          12
+       2          13
+       2          14
+      93          15 TO 999: 15+
+  -------
+    4664
+ 
+Refusal(-1)           20
+Don't Know(-2)        74
+TOTAL =========>    4758   VALID SKIP(-4)    2721     NON-INTERVIEW(-5)    1505
+ 
+Min:              0        Max:             99        Mean:                3.62
+ 
+Hard Minimum: [0]
+Hard Maximum: [99]
+Soft Minimum: [1]
+Soft Maximum: [NA]
+ 
+Lead In: T61448.00[Default]
+Default Next Question: T61450.00
+--------------------------------------------------------------------------------
+T61450.00    [YSAQ-367]                                     Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R HAD 5+ DRINKS PER DAY LAST 30 DAYS
+ 
+On how many days did you have five or more drinks on the same occasion during 
+the past 30 days? By occasion we mean at the same time or within hours of each 
+other.
+ 
+UNIVERSE: All except prisoners in an insecure environment; has drank since DLI; 
+did not answer 0 to how many days has drank in the last 30 days
+ 
+    2291           0
+    1620           1 TO 4
+     412           5 TO 9
+     147          10 TO 14
+      49          15 TO 19
+      43          20 TO 24
+      23          25 TO 29
+      16          30
+  -------
+    4601
+ 
+Refusal(-1)           33
+Don't Know(-2)       124
+TOTAL =========>    4758   VALID SKIP(-4)    2721     NON-INTERVIEW(-5)    1505
+ 
+Min:              0        Max:             30        Mean:                2.14
+ 
+Hard Minimum: [0]
+Hard Maximum: [{ALCOHOLDAYSMAX}]
+ 
+Lead In: T61449.00[Default]
+Default Next Question: T61451.00
+--------------------------------------------------------------------------------
+T76392.00    [YSAQ-364D]                                    Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             HAS R DRANK SINCE DLI?
+ 
+Have you had a drink of an alcoholic beverage since the last interview on [date 
+of last interview]? (By a drink we mean a can or bottle of beer, a glass of 
+wine, a mixed drink, or a shot of liquor.)
+ 
+UNIVERSE: All except prisoners in an insecure environment
+ 
+    5350       1 YES   (Go To T76393.00)
+    1867       0 NO
+  -------
+    7217
+ 
+Refusal(-1)           92
+Don't Know(-2)        29
+TOTAL =========>    7338   VALID SKIP(-4)      85     NON-INTERVIEW(-5)    1561
+ 
+Min:              0        Max:              1        Mean:                 .74
+ 
+Lead In: T76391.00[Default]
+Default Next Question: T76397.00
+--------------------------------------------------------------------------------
+T76393.00    [YSAQ-365]                                     Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R DRINK ALCOHOL LAST 30 DAYS
+ 
+During the last 30 days, on how many days did you have one or more drinks of an 
+alcoholic beverage?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has drank since DLI
+ 
+     610           0   (Go To T76397.00)
+    2182           1 TO 4
+    1058           5 TO 9
+     551          10 TO 14
+     322          15 TO 19
+     249          20 TO 24
+     129          25 TO 29
+     121          30
+  -------
+    5222
+ 
+Refusal(-1)           22
+Don't Know(-2)       106
+TOTAL =========>    5350   VALID SKIP(-4)    2073     NON-INTERVIEW(-5)    1561
+ 
+Min:              0        Max:             30        Mean:                 6.5
+ 
+Hard Minimum: [0]
+Hard Maximum: [30]
+ 
+Lead In: T76392.00[1:1]
+Default Next Question: T76394.00
+--------------------------------------------------------------------------------
+T76394.00    [YSAQ-366]                                     Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             # DRINKS PER DAY LAST 30 DAYS
+ 
+In the past 30 days, on the days you drank alcohol, about how many drinks did 
+you usually have?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has drank since DLI; 
+did not answer 0 to how many days has drank in the last 30 days
+ 
+       6           0
+     814           1
+    1406           2
+     923           3
+     480           4
+     398           5
+     206           6
+      47           7
+      81           8
+      10           9
+      89          10
+       1          11
+      43          12
+       0          13
+       2          14
+      85          15 TO 999: 15+
+  -------
+    4591
+ 
+Refusal(-1)           26
+Don't Know(-2)       123
+TOTAL =========>    4740   VALID SKIP(-4)    2683     NON-INTERVIEW(-5)    1561
+ 
+Min:              0        Max:             99        Mean:                3.55
+ 
+Hard Minimum: [0]
+Hard Maximum: [99]
+Soft Minimum: [1]
+Soft Maximum: [NA]
+ 
+Lead In: T76393.00[Default]
+Default Next Question: T76395.00
+--------------------------------------------------------------------------------
+T76395.00    [YSAQ-367]                                     Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R HAD 5+ DRINKS PER DAY LAST 30 DAYS
+ 
+On how many days did you have five or more drinks on the same occasion during 
+the past 30 days? By occasion we mean at the same time or within hours of each 
+other.
+ 
+UNIVERSE: All except prisoners in an insecure environment; has drank since DLI; 
+did not answer 0 to how many days has drank in the last 30 days
+ 
+    2273           0
+    1572           1 TO 4
+     425           5 TO 9
+     134          10 TO 14
+      53          15 TO 19
+      36          20 TO 24
+      18          25 TO 29
+      18          30
+  -------
+    4529
+ 
+Refusal(-1)           40
+Don't Know(-2)       171
+TOTAL =========>    4740   VALID SKIP(-4)    2683     NON-INTERVIEW(-5)    1561
+ 
+Min:              0        Max:             30        Mean:                2.12
+ 
+Hard Minimum: [0]
+Hard Maximum: [{ALCOHOLDAYSMAX}]
+ 
+Lead In: T76394.00[Default]
+Default Next Question: T76396.00
+--------------------------------------------------------------------------------
+T90412.00    [YSAQ-364D]                                    Survey Year: 2013
+  PRIMARY VARIABLE
+
+ 
+             HAS R DRANK SINCE DLI?
+ 
+Have you had a drink of an alcoholic beverage in the past twelve months? (By a 
+drink we mean a can or bottle of beer, a glass of wine, a mixed drink, or a shot
+of liquor.)
+ 
+UNIVERSE: All except prisoners in an insecure environment
+ 
+    5110       1 YES   (Go To T90413.00)
+    1864       0 NO
+  -------
+    6974
+ 
+Refusal(-1)           88
+Don't Know(-2)        25
+TOTAL =========>    7087   VALID SKIP(-4)      53     NON-INTERVIEW(-5)    1844
+ 
+Min:              0        Max:              1        Mean:                 .73
+ 
+Lead In: T90411.00[Default]
+Default Next Question: T90415.00
+--------------------------------------------------------------------------------
+T90413.00    [YSAQ-365]                                     Survey Year: 2013
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R DRINK ALCOHOL LAST 30 DAYS
+ 
+During the last 30 days, on how many days did you have one or more drinks of an 
+alcoholic beverage?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has drank in the last
+12 months
+ 
+     511           0   (Go To T90415.00)
+    2069           1 TO 4
+     989           5 TO 9
+     575          10 TO 14
+     351          15 TO 19
+     274          20 TO 24
+     132          25 TO 29
+     129          30
+  -------
+    5030
+ 
+Refusal(-1)           15
+Don't Know(-2)        65
+TOTAL =========>    5110   VALID SKIP(-4)    2030     NON-INTERVIEW(-5)    1844
+ 
+Min:              0        Max:             30        Mean:                6.95
+ 
+Hard Minimum: [0]
+Hard Maximum: [30]
+ 
+Lead In: T90412.00[1:1]
+Default Next Question: T90414.00
+--------------------------------------------------------------------------------
+T90414.00    [YSAQ-366]                                     Survey Year: 2013
+  PRIMARY VARIABLE
+
+ 
+             # DRINKS PER DAY LAST 30 DAYS
+ 
+In the past 30 days, on the days you drank alcohol, about how many drinks did 
+you usually have?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has drank since in 
+the last 12 months; did not answer 0 to how many days has drank in the last 30 
+days
+ 
+      10           0
+     934           1
+    1494           2
+     878           3
+     414           4
+     314           5
+     182           6
+      24           7
+      59           8
+      20           9
+      64          10
+       2          11
+      37          12
+       4          13
+       2          14
+      74          15 TO 999: 15+
+  -------
+    4512
+ 
+Refusal(-1)           16
+Don't Know(-2)        71
+TOTAL =========>    4599   VALID SKIP(-4)    2541     NON-INTERVIEW(-5)    1844
+ 
+Min:              0        Max:             99        Mean:                3.43
+ 
+Hard Minimum: [0]
+Hard Maximum: [99]
+Soft Minimum: [1]
+Soft Maximum: [NA]
+ 
+Lead In: T90413.00[Default]
+Default Next Question: T90415.00
+--------------------------------------------------------------------------------
+U10308.00    [YSAQ-282D]                                    Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R FELT CALM AND PEACEFUL IN PAST MONTH
+ 
+How much of the time during the last month have you felt calm and peaceful?
+ 
+UNIVERSE: All
+ 
+     661       1 All of the time
+    3511       2 Most of the time
+    2518       3 Some of the time
+     316       4 None of the time
+  -------
+    7006
+ 
+Refusal(-1)           42
+Don't Know(-2)        55
+TOTAL =========>    7103   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1881
+ 
+Min:              1        Max:              4        Mean:                2.36
+ 
+Lead In: U10307.00[Default]
+Default Next Question: U10309.00
+--------------------------------------------------------------------------------
+U10309.00    [YSAQ-282E]                                    Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R FELT DOWN OR BLUE IN PAST MONTH
+ 
+How much of the time during the last month have you felt downhearted and blue?
+ 
+UNIVERSE: All
+ 
+      90       1 All of the time
+     413       2 Most of the time
+    3178       3 Some of the time
+    3216       4 None of the time
+  -------
+    6897
+ 
+Refusal(-1)           62
+Don't Know(-2)       144
+TOTAL =========>    7103   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1881
+ 
+Min:              1        Max:              4        Mean:                3.38
+ 
+Lead In: U10308.00[Default]
+Default Next Question: U10310.00
+--------------------------------------------------------------------------------
+U10310.00    [YSAQ-282F]                                    Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R HAS BEEN A HAPPY PERSON IN PAST MONTH
+ 
+How much of the time during the last month have you been a happy person?
+ 
+UNIVERSE: All
+ 
+     876       1 All of the time
+    4093       2 Most of the time
+    1922       3 Some of the time
+     129       4 None of the time
+  -------
+    7020
+ 
+Refusal(-1)           38
+Don't Know(-2)        45
+TOTAL =========>    7103   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1881
+ 
+Min:              1        Max:              4        Mean:                2.19
+ 
+Lead In: U10309.00[Default]
+Default Next Question: U10311.00
+--------------------------------------------------------------------------------
+U10311.00    [YSAQ-282G]                                    Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R DEPRESSED IN LAST MONTH
+ 
+How much of the time during the last month have you felt so down in the dumps 
+that nothing could cheer you up?
+ 
+UNIVERSE: All
+ 
+      54       1 All of the time
+     192       2 Most of the time
+    1383       3 Some of the time
+    5268       4 None of the time
+  -------
+    6897
+ 
+Refusal(-1)           65
+Don't Know(-2)       141
+TOTAL =========>    7103   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1881
+ 
+Min:              1        Max:              4        Mean:                3.72
+ 
+Lead In: U10310.00[Default]
+Default Next Question: U10312.00
+--------------------------------------------------------------------------------
+U10317.00    [YSAQ-364D]                                    Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             HAS R DRANK SINCE DLI?
+ 
+Have you had a drink of an alcoholic beverage in the past twelve months? (By a 
+drink we mean a can or bottle of beer, a glass of wine, a mixed drink, or a shot
+of liquor.)
+ 
+UNIVERSE: All except prisoners in an insecure environment
+ 
+    5021       1 YES   (Go To U10318.00)
+    1911       0 NO
+  -------
+    6932
+ 
+Refusal(-1)           61
+Don't Know(-2)        26
+TOTAL =========>    7019   VALID SKIP(-4)      84     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:              1        Mean:                 .72
+ 
+Lead In: U10316.00[Default]
+Default Next Question: U10322.00
+--------------------------------------------------------------------------------
+U10318.00    [YSAQ-365]                                     Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R DRINK ALCOHOL LAST 30 DAYS
+ 
+During the last 30 days, on how many days did you have one or more drinks of an 
+alcoholic beverage?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has drank since DLI
+ 
+     496           0   (Go To U10322.00)
+    2039           1 TO 4
+     980           5 TO 9
+     532          10 TO 14
+     332          15 TO 19
+     258          20 TO 24
+     158          25 TO 29
+     147          30
+  -------
+    4942
+ 
+Refusal(-1)           15
+Don't Know(-2)        64
+TOTAL =========>    5021   VALID SKIP(-4)    2082     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:             30        Mean:                7.07
+ 
+Hard Minimum: [0]
+Hard Maximum: [30]
+ 
+Lead In: U10317.00[1:1]
+Default Next Question: U10319.00
+--------------------------------------------------------------------------------
+U10319.00    [YSAQ-366]                                     Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             # DRINKS PER DAY LAST 30 DAYS
+ 
+In the past 30 days, on the days you drank alcohol, about how many drinks did 
+you usually have?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has drank in the last
+12 months; did not answer 0 to how many days has drank in the last 30 days
+ 
+       6           0
+     941           1
+    1499           2
+     854           3
+     442           4
+     266           5
+     174           6
+      41           7
+      53           8
+       3           9
+      69          10
+       0          11
+      24          12
+       0          13
+       2          14
+      67          15 TO 999: 15+
+  -------
+    4441
+ 
+Refusal(-1)           18
+Don't Know(-2)        66
+TOTAL =========>    4525   VALID SKIP(-4)    2578     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:             70        Mean:                3.18
+ 
+Hard Minimum: [0]
+Hard Maximum: [99]
+Soft Minimum: [1]
+Soft Maximum: [NA]
+ 
+Lead In: U10318.00[Default]
+Default Next Question: U10320.00
+--------------------------------------------------------------------------------
+U10320.00    [YSAQ-367]                                     Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             # DAYS R HAD 5+ DRINKS PER DAY LAST 30 DAYS
+ 
+On how many days did you have five or more drinks on the same occasion during 
+the past 30 days? By occasion we mean at the same time or within hours of each 
+other.
+ 
+UNIVERSE: All except prisoners in an insecure environment; has drank in the last
+12 months; did not answer 0 to how many days has drank in the last 30 days
+ 
+    2456           0
+    1356           1 TO 4
+     333           5 TO 9
+      97          10 TO 14
+      58          15 TO 19
+      35          20 TO 24
+      19          25 TO 29
+      30          30
+  -------
+    4384
+ 
+Refusal(-1)           20
+Don't Know(-2)       121
+TOTAL =========>    4525   VALID SKIP(-4)    2578     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:             30        Mean:                1.95
+ 
+Hard Minimum: [0]
+Hard Maximum: [{ALCOHOLDAYSMAX}]
+ 
+Lead In: U10319.00[Default]
+Default Next Question: U10321.00

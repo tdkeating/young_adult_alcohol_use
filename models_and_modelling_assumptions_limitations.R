@@ -1,4 +1,4 @@
-## Script name: Models and Modelling Assumptions.R
+## Script name: models_and_modelling_assumptions_limitations.R
 ##
 ## Purpose of script: Run ordinal logistic regression analysis and check modelling assumptions
 ##

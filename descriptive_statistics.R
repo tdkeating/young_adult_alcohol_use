@@ -1,4 +1,4 @@
-## Script name: Descriptive Statistics.R
+## Script name: descriptive_statistics.R
 ##
 ## Purpose of script: Get descriptive statistics from analysis 
 ##            - summary of predictor variables

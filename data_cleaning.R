@@ -1,4 +1,4 @@
-## Script name: Data Cleaning.R
+## Script name: data_cleaning.R
 ##
 ## Purpose of script: Load data from the National Longitudinal Survey of Youth, and process data for use in analysis
 ##

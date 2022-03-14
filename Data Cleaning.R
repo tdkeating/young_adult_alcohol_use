@@ -1,4 +1,14 @@
+## Script name: Data Cleaning.R
+##
+## Purpose of script: Load data from the National Longitudinal Survey of Youth, and process data for use in analysis
+##
+## Author: Taylor Keating
+##
+## Email: tkeatin@uw.edu
+##
+
 library(tidyverse)
+setwd("~/Documents/GitHub/young_adult_alcohol_use")
 orig_data<- read_csv("Data/Dataset by Reference #.csv")
 
 ## CLEANING DATA:

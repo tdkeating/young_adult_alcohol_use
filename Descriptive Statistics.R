@@ -1,8 +1,21 @@
-## DESCRIPTIVE STATISTICS:
+## Script name: Descriptive Statistics.R
+##
+## Purpose of script: Get descriptive statistics from analysis 
+##            - summary of predictor variables
+##            - mean and std dev of days_drank and days_heavy_drank for each depression category
+##            - distributions of subject's answers to days_drank and days_heavy_drank
+##            - distributions of subject's answers to income and log(income + 1)
+##
+## Author: Taylor Keating
+##
+## Email: tkeatin@uw.edu
+##
+## Note: all created plots and tables are saved in Plot_Tables subdirectory
+
 library(tidyverse)
 library(knitr)
 library(kableExtra)
-
+setwd("~/Documents/GitHub/young_adult_alcohol_use")
 #read in cleaned data
 new_data <- readRDS("new_data.rds")
 

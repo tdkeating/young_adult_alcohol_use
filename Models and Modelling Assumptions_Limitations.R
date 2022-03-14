@@ -1,10 +1,20 @@
+## Script name: Models and Modelling Assumptions.R
+##
+## Purpose of script: Run ordinal logistic regression analysis and check modelling assumptions
+##
+## Author: Taylor Keating
+##
+## Email: tkeatin@uw.edu
+##
+## Note: all created plots and tables are saved in Plot_Tables subdirectory
+
 ## Models- Ordinal Logistic Regression
 library(tidyverse)
 library(MASS)
 library(car)
 library(knitr)
 library(kableExtra)
-
+setwd("~/Documents/GitHub/young_adult_alcohol_use")
 #read in cleaned data
 new_data <- readRDS("new_data.rds")
 new_data_complete<- new_data[complete.cases(new_data),]

@@ -26,11 +26,11 @@ This project is based on data from the [National Longitudinal Survey of Youth (1
 - script which uses `new_data.rds` to get descriptive statistics from analysis. 
 - summary of predictor variables
 - mean and std dev of days_drank and days_heavy_drank for each depression category
-- distributions of subject's answers to days_drank and days_heavy_drank
-- distributions of subject's answers to income and log(income + 1)
-- all created plots and tables are output in Plots_Tables subdirectory
+- distributions of subject answers to days_drank and days_heavy_drank
+- distributions of subject answers to income and log(income + 1)
+- all created plots and tables are output in `Plots_Tables` subdirectory
 
 ### models_and_modelling_assumptions_limitations.R
 
 - script which runs ordinal logistic regression analysis and checks modelling assumptions on `new_data.rds`
-- all created plots and tables are output in Plots_Tables subdirectory
+- all created plots and tables are output in `Plots_Tables` subdirectory

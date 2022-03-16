@@ -1,6 +1,8 @@
 ## Script name: data_cleaning.R
 ##
 ## Purpose of script: Load data from the National Longitudinal Survey of Youth, and process data for use in analysis
+##          - read file "Dataset_by_Reference_#.csv"
+##          - write file "new_data.rds"
 ##
 ## Author: Taylor Keating
 ##
@@ -9,7 +11,7 @@
 
 library(tidyverse)
 setwd("~/Documents/GitHub/young_adult_alcohol_use")
-orig_data<- read_csv("Data/Dataset by Reference #.csv")
+orig_data<- read_csv("Data/Dataset_by_Reference_#.csv")
 
 ## CLEANING DATA:
 new_data<- orig_data
